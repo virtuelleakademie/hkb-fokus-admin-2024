@@ -9,7 +9,8 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Andrew Ellis">
@@ -52,7 +53,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-35c6fed0a2c24fc8463080d7d13bda63.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-0372d9f6b572fd50a9cba8e15138cc97.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -159,81 +160,15 @@
     }
   </style>
   <style>
-  div.callout-export.callout {
-    border-left-color: brown;
+  div.callout-setup.callout {
+    border-left-color: gray;
   }
-  div.callout-export.callout-style-default > .callout-header {
-    background-color: rgb(from brown r g b / 13%);
+  div.callout-setup.callout-style-default > .callout-header {
+    background-color: rgb(from gray r g b / 13%);
   }
-  div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
-    content: '📤';
-    background-image: none;
-  }
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-testing.callout {
-    border-left-color: green;
-  }
-  div.callout-testing.callout-style-default > .callout-header {
-    background-color: rgb(from green r g b / 13%);
-  }
-  div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
-    content: '🧪';
-    background-image: none;
-  }
-  div.callout-screens-up.callout {
-    border-left-color: green;
-  }
-  div.callout-screens-up.callout-style-default > .callout-header {
-    background-color: rgb(from green r g b / 13%);
-  }
-  div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
-    content: '🔼';
-    background-image: none;
-  }
-  div.callout-timing.callout {
-    border-left-color: red;
-  }
-  div.callout-timing.callout-style-default > .callout-header {
-    background-color: rgb(from red r g b / 13%);
-  }
-  div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
-    content: '⏱️';
-    background-image: none;
-  }
-  div.callout-checkpoint.callout {
-    border-left-color: purple;
-  }
-  div.callout-checkpoint.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
-    content: '🎯';
-    background-image: none;
-  }
-  div.callout-try.callout {
-    border-left-color: blue;
-  }
-  div.callout-try.callout-style-default > .callout-header {
-    background-color: rgb(from blue r g b / 13%);
-  }
-  div.callout-try .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-try.callout-style-default .callout-icon::before, div.callout-try.callout-titled .callout-icon::before {
-    content: '🔄';
+  div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
+    content: '⚙️';
     background-image: none;
   }
   div.callout-break.callout {
@@ -247,17 +182,6 @@
     content: '☕';
     background-image: none;
   }
-  div.callout-prompt-example.callout {
-    border-left-color: darkblue;
-  }
-  div.callout-prompt-example.callout-style-default > .callout-header {
-    background-color: rgb(from darkblue r g b / 13%);
-  }
-  div.callout-prompt-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-prompt-example.callout-style-default .callout-icon::before, div.callout-prompt-example.callout-titled .callout-icon::before {
-    content: '👩🏼‍🔧';
-    background-image: none;
-  }
   div.callout-schedule.callout {
     border-left-color: steelblue;
   }
@@ -269,26 +193,15 @@
     content: '⏰︎';
     background-image: none;
   }
-  div.callout-screens-down.callout {
-    border-left-color: orange;
+  div.callout-screens-up.callout {
+    border-left-color: green;
   }
-  div.callout-screens-down.callout-style-default > .callout-header {
-    background-color: rgb(from orange r g b / 13%);
+  div.callout-screens-up.callout-style-default > .callout-header {
+    background-color: rgb(from green r g b / 13%);
   }
-  div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
-    content: '🔽';
-    background-image: none;
-  }
-  div.callout-tip.callout {
-    border-left-color: gold;
-  }
-  div.callout-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
-  }
-  div.callout-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-tip.callout-style-default .callout-icon::before, div.callout-tip.callout-titled .callout-icon::before {
-    content: '💡';
+  div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
+    content: '🔼';
     background-image: none;
   }
   div.callout-prompt-template.callout {
@@ -302,37 +215,37 @@
     content: '📋';
     background-image: none;
   }
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
+  div.callout-group.callout {
     border-left-color: purple;
   }
-  div.callout-reflect.callout-style-default > .callout-header {
+  div.callout-group.callout-style-default > .callout-header {
     background-color: rgb(from purple r g b / 13%);
   }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
-  div.callout-output-example.callout {
-    border-left-color: darkgreen;
+  div.callout-checkpoint.callout {
+    border-left-color: purple;
   }
-  div.callout-output-example.callout-style-default > .callout-header {
-    background-color: rgb(from darkgreen r g b / 13%);
+  div.callout-checkpoint.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
   }
-  div.callout-output-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-output-example.callout-style-default .callout-icon::before, div.callout-output-example.callout-titled .callout-icon::before {
-    content: '📄';
+  div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
+    content: '🎯';
+    background-image: none;
+  }
+  div.callout-screens-down.callout {
+    border-left-color: orange;
+  }
+  div.callout-screens-down.callout-style-default > .callout-header {
+    background-color: rgb(from orange r g b / 13%);
+  }
+  div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
+    content: '🔽';
     background-image: none;
   }
   div.callout-caution.callout {
@@ -346,6 +259,50 @@
     content: '⚠️';
     background-image: none;
   }
+  div.callout-try.callout {
+    border-left-color: blue;
+  }
+  div.callout-try.callout-style-default > .callout-header {
+    background-color: rgb(from blue r g b / 13%);
+  }
+  div.callout-try .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-try.callout-style-default .callout-icon::before, div.callout-try.callout-titled .callout-icon::before {
+    content: '🔄';
+    background-image: none;
+  }
+  div.callout-reflect.callout {
+    border-left-color: purple;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
+  div.callout-export.callout {
+    border-left-color: brown;
+  }
+  div.callout-export.callout-style-default > .callout-header {
+    background-color: rgb(from brown r g b / 13%);
+  }
+  div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
+    content: '📤';
+    background-image: none;
+  }
+  div.callout-prompt-example.callout {
+    border-left-color: steelblue;
+  }
+  div.callout-prompt-example.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
+  }
+  div.callout-prompt-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-prompt-example.callout-style-default .callout-icon::before, div.callout-prompt-example.callout-titled .callout-icon::before {
+    content: '👩🏼‍🔧';
+    background-image: none;
+  }
   div.callout-feedback.callout {
     border-left-color: teal;
   }
@@ -357,26 +314,70 @@
     content: '📝';
     background-image: none;
   }
-  div.callout-group.callout {
+  div.callout-tip.callout {
+    border-left-color: gold;
+  }
+  div.callout-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
+  }
+  div.callout-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-tip.callout-style-default .callout-icon::before, div.callout-tip.callout-titled .callout-icon::before {
+    content: '💡';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: steelblue;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
+    background-image: none;
+  }
+  div.callout-testing.callout {
+    border-left-color: green;
+  }
+  div.callout-testing.callout-style-default > .callout-header {
+    background-color: rgb(from green r g b / 13%);
+  }
+  div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
+    content: '🧪';
+    background-image: none;
+  }
+  div.callout-output-example.callout {
     border-left-color: purple;
   }
-  div.callout-group.callout-style-default > .callout-header {
+  div.callout-output-example.callout-style-default > .callout-header {
     background-color: rgb(from purple r g b / 13%);
   }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  div.callout-output-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-output-example.callout-style-default .callout-icon::before, div.callout-output-example.callout-titled .callout-icon::before {
+    content: '📄';
+    background-image: none;
+  }
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
     content: '👥';
     background-image: none;
   }
-  div.callout-setup.callout {
-    border-left-color: gray;
+  div.callout-timing.callout {
+    border-left-color: red;
   }
-  div.callout-setup.callout-style-default > .callout-header {
-    background-color: rgb(from gray r g b / 13%);
+  div.callout-timing.callout-style-default > .callout-header {
+    background-color: rgb(from red r g b / 13%);
   }
-  div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
-    content: '⚙️';
+  div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
+    content: '⏱️';
     background-image: none;
   }
   </style>
@@ -409,22 +410,34 @@
 </ul></li>
 </ul>
 </section>
+<section id="large-language-models-lmms" class="slide level2">
+<h2>Large Language Models (LMMs)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Maschinelles Lernen:</p>
+<p>Modelle, die ohne explizite Programmierung Muster aus Daten erlernen, um Vorhersagen oder Entscheidungen zu treffen. <img data-src="../../assets/images/what-is-AI.svg" style="width:80.0%"></p>
+</div><div class="column" style="width:50%;">
+<p>Large Language Model:</p>
+<p>Ein maschinelles Lernmodell, das darauf trainiert wird, das nächste Wort nach einem Eingabetext (Prompt) vorherzusagen.</p>
+<p><img data-src="../../assets/images/LLM.svg"></p>
+</div></div>
+</section>
 <section id="ki-verrichtet-geistige-arbeit" class="slide level2">
 <h2>KI verrichtet geistige Arbeit</h2>
 <ul>
-<li><p><strong>Kognitive Arbeit und KI</strong>: KI hat das Potential zu verändern, wie <em>geistige</em>Arbeit verrichtet wird.</p></li>
+<li><p><strong>Kognitive Arbeit und KI</strong>: KI hat das Potential zu verändern, wie <em>geistige</em> Arbeit verrichtet wird.</p></li>
 <li><p><strong>Wichtige Erkenntnisse aus der Forschung</strong>:</p>
 <ul>
 <li><span class="citation" data-cites="dellacquaNavigatingJaggedTechnological2023">Dell’Acqua et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span> erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.</li>
 <li><span class="citation" data-cites="toner-rodgersArtificialIntelligenceScientific">Toner-Rodgers (<a href="#/references" role="doc-biblioref" onclick="">n.d.</a>)</span> diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.</li>
 <li><span class="citation" data-cites="cuiEffectsGenerativeAI2024a">Cui et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span> analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.</li>
 </ul></li>
-<li><p><strong>Anwendungen</strong>:</p>
+<li><p><strong>Erkenntnisse</strong>:</p>
 <ul>
-<li>Automatisierung von routinemässigen kognitiven Aufgaben</li>
-<li>Unterstützung kreativer Bestrebungen</li>
+<li>Automatisierung von routinemässigen kognitiven Aufgaben ist möglich</li>
+<li>Unterstützung kreativer Arbeit ist möglich</li>
 <li>Deskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren</li>
-<li>Ohne Training: KI-Tools werden für ungeeignete Aufgaben eingesetzt</li>
+<li>Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt</li>
 </ul></li>
 </ul>
 <!-- [@dellacquaNavigatingJaggedTechnological2023; @toner-rodgersArtificialIntelligenceScientific; @cuiEffectsGenerativeAI2024a] -->
@@ -446,6 +459,17 @@
 </section>
 <section id="wie-sieht-das-für-die-kognitive-arbeit-aus" class="slide level2">
 <h2>Wie sieht das für die kognitive Arbeit aus?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>1960</strong></p>
+<p><img data-src="../../assets/images/human-cognitive-work.png"></p>
+</div><div class="column" style="width:50%;">
+<p><strong>2030</strong> <img data-src="../../assets/images/human-ai-fusion.png"></p>
+<!--  -->
+</div></div>
+<div class="attribution">
+<p>Bildquelle: Erstellt mit DALL-E 3</p>
+</div>
 </section>
 <section id="ankunftstechnologien" class="slide level2">
 <h2>Ankunftstechnologien</h2>
@@ -453,7 +477,7 @@
 <div class="column" style="width:50%;">
 <p>Hochschulen stehen vor Herausforderungen mit Technologien wie ChatGPT, weil sie:</p>
 <ul>
-<li>Traditionelle Technologieevaluierungsprozesse umgehen</li>
+<li>Traditionelle Technologie-Evaluierungsprozesse umgehen</li>
 <li>Durch <strong>spontane Adoption</strong> eingeführt werden</li>
 <li>Reaktive statt proaktive Richtlinien erfordern</li>
 </ul>
@@ -464,41 +488,49 @@
 <p>Bildquelle: Erstellt mit DALL-E 3 (“ChatGPT arriving at a university in the style of a 14th century painting.”)</p>
 </div>
 </section>
-<section id="traditionelle-vs.-ankunftstechnologien" class="slide level2">
-<h2>Traditionelle vs.&nbsp;Ankunftstechnologien</h2>
+<section id="adoptions--vs.-ankunftstechnologien" class="slide level2">
+<h2>Adoptions- vs.&nbsp;Ankunftstechnologien</h2>
 <p><span class="citation" data-cites="reichNewTheoryArrival2024">(<a href="#/references" role="doc-biblioref" onclick="">Reich and Dukes 2024</a>)</span></p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>Traditionelle Einführung</strong></p>
 <ul>
-<li><p>Sorgfältige Bewertung</p></li>
-<li><p>Pilotversuche</p></li>
-<li><p>Mitarbeiterschulung</p></li>
-<li><p>Klare Zeitpläne</p></li>
-<li><p>Etablierte Richtlinien</p></li>
-<li><p><strong>Beispiele</strong>:</p>
-<ul>
-<li>Learning Management Systems</li>
-<li>Smart boards</li>
-</ul></li>
+<li>Sorgfältige Bewertung</li>
+<li>Pilotversuche</li>
+<li>Mitarbeiterschulung</li>
+<li>Klare Zeitpläne</li>
+<li>Etablierte Richtlinien</li>
 </ul>
+<div class="callout callout-note no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Beispiele</strong></p>
+</div>
+<div class="callout-content">
+<p>Learning Management Systems, Smart boards</p>
+</div>
+</div>
+</div>
 </div><div class="column" style="width:50%;">
 <p><strong>Ankunftstechnologien</strong></p>
 <ul>
-<li><p>Spontane Nutzung</p></li>
-<li><p>Umgehung von Prozessen</p></li>
-<li><p>Keine Vorbereitung</p></li>
-<li><p>Benutzergeführte Einführung</p></li>
-<li><p>Reaktive Richtlinien</p></li>
-<li><p>Informelle Schulung</p></li>
-<li><p><strong>Beispiele</strong>:</p>
-<ul>
-<li>Smartphones</li>
-<li>Wikipedia</li>
-<li>Social Media</li>
-<li>ChatGPT</li>
-</ul></li>
+<li>Spontane Nutzung</li>
+<li>Umgehung von Prozessen</li>
+<li>Keine Vorbereitung</li>
+<li>Benutzergeführte Einführung</li>
+<li>Reaktive Richtlinien</li>
+<li>Informelle Schulung</li>
 </ul>
+<div class="callout callout-note no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Beispiele</strong></p>
+</div>
+<div class="callout-content">
+<p>Smartphone <i class="bi-phone " style="" role="img" aria-hidden="true"></i>, Wikipedia <i class="bi-wikipedia " style="" role="img" aria-hidden="true"></i> , YouTube <i class="bi-youtube " style="" role="img" aria-hidden="true"></i>, TikTok <i class="bi-tiktok " style="" role="img" aria-hidden="true"></i></p>
+</div>
+</div>
+</div>
 </div></div>
 </section>
 <section id="drei-wege-der-ankunft" class="slide level2">
@@ -524,41 +556,131 @@
 </ul></li>
 </ol>
 </section>
-<section id="understanding-llms" class="slide level2">
-<h2>Understanding LLMs</h2>
+<section id="was-sind-llms" class="slide level2">
+<h2>Was sind LLMs?</h2>
+<div class="r-fit-text">
+<p>Es ist wichtig, die angekommene Technologie zu <strong>entmystifizieren</strong>, um sie richtig einordnen zu können:</p>
 <ul>
-<li>Pattern matching systems trained on text data</li>
-<li>Statistical models predicting likely next words</li>
-<li>Not intelligent systems</li>
-<li>Sophisticated imitation engines</li>
-</ul>
-</section>
-<section id="how-llms-work" class="slide level2">
-<h2>How LLMs Work</h2>
-<h3 id="core-mechanism-conditional-text-generation">Core Mechanism: Conditional Text Generation</h3>
-<ol type="1">
-<li>Takes input as context</li>
-<li>Predicts likely next word</li>
-<li>Uses new context</li>
-<li>Continues prediction process</li>
-<li>Generates complete response</li>
-</ol>
-</section>
-<section id="verification-methods" class="slide level2">
-<h2>Verification Methods</h2>
+<li>LLMs sind statistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.</li>
+<li>Diese Vorhersage geschieht <strong>Wort für Wort</strong>.</li>
+<li>Jede Vorhersage basiert auf
 <ul>
-<li>Cross-reference with authoritative sources</li>
-<li>Check internal consistency</li>
-<li>Look for outdated information</li>
-<li>Watch for AI indicators:
-<ul>
-<li>Overly confident tone</li>
-<li>Generic examples</li>
-<li>Repetitive patterns</li>
-<li>Unnatural language</li>
+<li>der Eingabe (Prompt)</li>
+<li>den zuvor generierten Wörtern</li>
+<li>der internen Struktur des Modells</li>
 </ul></li>
 </ul>
+<div class="hidden">
+<p><span class="math display">\[
+\newcommand{\purple}[1]{\color{purple}{#1}}
+\newcommand{\red}[1]{\color{red}{#1}}
+\newcommand{\blue}[1]{\color{blue}{#1}}
+\]</span></p>
+</div>
+<p><span class="math display">\[\purple{P(\text{Wort}_{i+1}} \mid \blue{\text{Kontext}}, \red{\text{Modell}})\]</span></p>
+<!-- $$P(x_{i+1} \mid \text{Context}, \text{Model})$$ -->
+<p>Das <span class="math inline">\(\purple{\text{nächste Wort}}\)</span> wird vorhergesagt, in Abhängigkeit von <span class="math inline">\(\blue{\text{Inputsequenz}}\)</span> und <span class="math inline">\(\red{\text{Modell}}\)</span>.</p>
+</div>
 </section>
+<section id="was-sind-llms-1" class="slide level2">
+<h2>Was sind LLMs?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Ein LLM kann man sich wie ein ausgefeilter Autocomplete-Mechanismus vorstellen.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../../assets/images/predictive-text.png"></p>
+</div></div>
+<div class="attribution">
+<p>Bildquelle: <a href="https://www.apple.com">www.apple.com</a></p>
+</div>
+</section>
+<section id="wie-generieren-llms-text" class="slide level2">
+<h2>Wie generieren LLMs Text?</h2>
+<p><br> <br></p>
+
+<img data-src="../../assets/images/wort-fuer-wort.png" class="r-stretch"></section>
+<section id="wie-können-llms-text-vorhersagen" class="slide level2">
+<h2>Wie können LLMs Text vorhersagen?</h2>
+<p>Sie werden trainiert, das nächste Wort in einer gegebenen Wortsequenz zu erraten.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Ein LLM wird in drei Schritten aufgebaut:</p>
+<ol type="1">
+<li>Sammeln eines grossen Text-Korpus.</li>
+<li>Basierend auf diesem Text, muss das Modell das nächste Wort in einer gegebenen Wortsequenz vorherzusagen lernen.</li>
+<li>Das Sprachmodell wird feiner abgestimmt, um das gewünschte Verhalten zu erreichen.</li>
+</ol>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../../assets/images/LLM-Bookshelf.png"></p>
+</div></div>
+</section>
+<section id="wie-werden-llms-trainiert" class="slide level2">
+<h2>Wie werden LLMs trainiert?</h2>
+
+<img data-src="../../assets/images/llm-training.png" class="r-stretch"></section>
+<section id="gefahren-und-herausforderungen" class="slide level2">
+<h2>Gefahren und Herausforderungen</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Die verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken verbunden:</p>
+<ul>
+<li><strong>Urheberrecht</strong>: Die trainierten Modelle werden mit Texten trainiert, die möglicherweise Urheberrechtlich geschützt sind.</li>
+<li><strong>Bias</strong>: Die trainierten Modelle können bestehende Vorurteile aus den Trainingsdaten lernen.</li>
+<li><strong>Energieverbrauch</strong>: Das Training der Modelle verbraucht viel Energie und ist damit umweltbelastend.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../../assets/images/Pothole.png"></p>
+</div></div>
+</section>
+<section id="gefahren-und-herausforderungen-1" class="slide level2">
+<h2>Gefahren und Herausforderungen</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Obschon sich LLMs viel Wissen aneignen<sup>1</sup>, werden sie nicht trainiert, faktisch korrekte Aussagen zu machen.</li>
+<li>Dies bedeutet, dass wir alle Aussagen, die LLMs uns präsentieren, immer kritisch hinterfragen müssen.</li>
+<li>LLMs sind <strong>keine Wissensdatenbanken</strong>. Informationen immer anhand externer Quellen überprüfen.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../../assets/images/KnowledgeBase.png"></p>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Das ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen.</p></li></ol></aside></section>
+<section id="chatgpt" class="slide level2">
+<h2>ChatGPT</h2>
+
+<img data-src="../../assets/images/chatgpt.png" class="r-stretch"></section>
+<section id="fragen-beantworten" class="slide level2">
+<h2>Fragen beantworten</h2>
+
+<img data-src="../../assets/images/fragen-beantworten.png" class="r-stretch"></section>
+<section id="bilder-analysieren" class="slide level2">
+<h2>Bilder analysieren</h2>
+
+<img data-src="../../assets/images/bilder-analysieren.png" class="r-stretch"></section>
+<section id="dokumente-zusammenfassen" class="slide level2">
+<h2>Dokumente zusammenfassen</h2>
+
+<img data-src="../../assets/images/dokumente-zusammenfassen.png" class="r-stretch"></section>
+<section id="output-strukturieren" class="slide level2">
+<h2>Output strukturieren</h2>
+
+<img data-src="../../assets/images/output-strukturieren.png" class="r-stretch"></section>
+<section id="websuche" class="slide level2">
+<h2>Websuche</h2>
+
+<img data-src="../../assets/images/websuche.png" class="r-stretch"></section>
+<section id="datenanalyse" class="slide level2">
+<h2>Datenanalyse</h2>
+
+<img data-src="../../assets/images/datenanalyse.png" class="r-stretch"></section>
+<section id="custom-gpts" class="slide level2">
+<h2>Custom GPTs</h2>
+
+<img data-src="../../assets/images/gpts.png" class="r-stretch"></section>
+<section id="rechtliche-aspekte" class="slide level2">
+<h2>Rechtliche Aspekte</h2>
+
+<img data-src="../../assets/images/rechtliche-aspekte.png" class="r-stretch"></section>
 <section id="critical-concerns" class="slide level2">
 <h2>Critical Concerns</h2>
 <h3 id="privacy-risks">Privacy Risks</h3>
@@ -659,6 +781,7 @@ Toner-Rodgers, Aidan. n.d. <span>“Artificial <span>Intelligence</span>, <span>
 
 
 </section>
+
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../assets/bfh-logo.png" class="slide-logo"></p>
