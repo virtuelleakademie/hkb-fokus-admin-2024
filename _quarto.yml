@@ -13,6 +13,7 @@ project:
     - notebooks/*.ipynb
     # - "!tutorials/tutorial-1/index.qmd"
     - slides/**/*.qmd
+    - slides/input/index.qmd
     # - slides/openai-platform/index.qmd
 
 website:
@@ -45,7 +46,7 @@ website:
         text: "Dokumente" # {{< fa person-chalkboard >}}
         menu:
           - text: "Input: KI erste Schritte"
-            file: slides/presentation/index.qmd
+            file: slides/input/index.qmd
           - text: "Input: Prompting"
             file: slides/prompting/index.qmd
           - text: "Begleitdokument: KI Weiterbildung"
