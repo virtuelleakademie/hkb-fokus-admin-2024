@@ -852,5 +852,89 @@
       "Workshop",
       "Input: Prompting"
     ]
+  },
+  {
+    "objectID": "slides/input/index.html#introduction",
+    "href": "slides/input/index.html#introduction",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Introduction",
+    "text": "Introduction\nUniversities face unique challenges with LLMs like ChatGPT because they:\n\nBypass traditional technology evaluation processes\nEnter through spontaneous adoption\nRequire reactive rather than proactive policies"
+  },
+  {
+    "objectID": "slides/input/index.html#traditional-vs.-arrival-technologies",
+    "href": "slides/input/index.html#traditional-vs.-arrival-technologies",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Traditional vs. Arrival Technologies",
+    "text": "Traditional vs. Arrival Technologies\n\n\nTraditional Adoption\n\nCareful evaluation\nCommittee review\nPilot testing\nStaff training\nClear timelines\nEstablished policies\n\n\nArrival Technologies\n\nSpontaneous use\nBypass processes\nNo preparation\nUser-led adoption\nReactive policies\nInformal training"
+  },
+  {
+    "objectID": "slides/input/index.html#real-world-examples",
+    "href": "slides/input/index.html#real-world-examples",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Real-World Examples",
+    "text": "Real-World Examples\nThree Paths of Arrival\n\nStudent-Led\n\nSpontaneous use in assignments\nAdoption of AI-enabled tools\nCreative applications\n\nStaff-Led\n\nDiscovery of AI tools\nInformal adoption\nPeer-to-peer sharing\n\nSystem-Led\n\nAI features in existing software\nIntegration into common tools\nPlatform updates"
+  },
+  {
+    "objectID": "slides/input/index.html#understanding-llms",
+    "href": "slides/input/index.html#understanding-llms",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Understanding LLMs",
+    "text": "Understanding LLMs\n\nPattern matching systems trained on text data\nStatistical models predicting likely next words\nNot intelligent systems\nSophisticated imitation engines"
+  },
+  {
+    "objectID": "slides/input/index.html#how-llms-work",
+    "href": "slides/input/index.html#how-llms-work",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "How LLMs Work",
+    "text": "How LLMs Work\nCore Mechanism: Conditional Text Generation\n\nTakes input as context\nPredicts likely next word\nUses new context\nContinues prediction process\nGenerates complete response"
+  },
+  {
+    "objectID": "slides/input/index.html#verification-methods",
+    "href": "slides/input/index.html#verification-methods",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Verification Methods",
+    "text": "Verification Methods\n\nCross-reference with authoritative sources\nCheck internal consistency\nLook for outdated information\nWatch for AI indicators:\n\nOverly confident tone\nGeneric examples\nRepetitive patterns\nUnnatural language"
+  },
+  {
+    "objectID": "slides/input/index.html#critical-concerns",
+    "href": "slides/input/index.html#critical-concerns",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Critical Concerns",
+    "text": "Critical Concerns\nPrivacy Risks\n\nData retention in training\nFERPA considerations\nConfidential information\nInstitutional data\n\nCopyright and IP\n\nOwnership questions\nTraining data rights\nPlagiarism risks\nLegal considerations"
+  },
+  {
+    "objectID": "slides/input/index.html#security-and-access",
+    "href": "slides/input/index.html#security-and-access",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Security and Access",
+    "text": "Security and Access\nData Security\n\nThird-party vendor access\nCross-border data flow\nRetention policies\nAccess control\n\nEquity Concerns\n\nAccess to paid tools\nTechnical literacy\nResource disparities\nTraining needs"
+  },
+  {
+    "objectID": "slides/input/index.html#practical-applications",
+    "href": "slides/input/index.html#practical-applications",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Practical Applications",
+    "text": "Practical Applications\nCurrent Uses: - Email and correspondence - Document processing - Report generation - Data organization - Process documentation"
+  },
+  {
+    "objectID": "slides/input/index.html#managing-arrival-technology",
+    "href": "slides/input/index.html#managing-arrival-technology",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Managing Arrival Technology",
+    "text": "Managing Arrival Technology\nImmediate Steps\n\nAcknowledge current use\nShare best practices\nDevelop guidelines\nAddress key concerns\n\nLong-term Strategy\n\nCreate comprehensive policies\nEstablish training programs\nMonitor impacts\nAdapt to changes"
+  },
+  {
+    "objectID": "slides/input/index.html#looking-forward",
+    "href": "slides/input/index.html#looking-forward",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Looking Forward",
+    "text": "Looking Forward\nKey Questions: 1. How is your department adapting? 2. What guidelines are needed? 3. How can we ensure responsible use? 4. What support do staff need?"
+  },
+  {
+    "objectID": "slides/input/index.html#next-steps",
+    "href": "slides/input/index.html#next-steps",
+    "title": "Navigating the Arrival of AI in University Administration",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nDocument current uses\nShare experiences\nDevelop policies\nPlan training\n\n\nThis presentation covers the key aspects of managing AI arrival in university settings, focusing on practical approaches and necessary considerations for administrators."
   }
 ]
