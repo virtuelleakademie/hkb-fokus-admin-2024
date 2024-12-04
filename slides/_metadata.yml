@@ -2,7 +2,7 @@
 author: "Andrew Ellis"
 date: "5 December, 2024"
 date-format: "DD MMMM, YYYY"
-bibliography: ../bibliography.bib
+bibliography: [../bibliography.bib, ../ai-for-research.bib]
 # nocite: |
 #   @cuiEffectsGenerativeAI2024a
 format: 
@@ -45,3 +45,6 @@ revealjs-plugins:
   - attribution
 filters:
   - timer
+
+editor:
+  render-on-save: false
