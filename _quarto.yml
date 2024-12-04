@@ -44,8 +44,10 @@ website:
       - icon: file-slides
         text: "Slides" # {{< fa person-chalkboard >}}
         menu:
-          - text: "OpenAI Platform"
-            file: slides/openai-platform/index.qmd
+          - text: "Input"
+            file: slides/presentation/index.qmd
+          - text: "Prompting"
+            file: slides/prompting/index.qmd
           - text: "Understanding LLMs"
             file: slides/understanding-llms/index.qmd
           - text: "Basic prompt engineering"
@@ -80,12 +82,8 @@ website:
       background: light
       contents:
         - workshop/index.qmd
-        - workshop/setup/index.qmd
-        - workshop/openai/index.qmd
-        - notebooks/exploring-openai-models.ipynb
-        - notebooks/structured-output.ipynb
-        - workshop/projects/index.qmd
-        - workshop/discussion/index.qmd
+        - workshop/presentation/index.qmd
+        - workshop/prompting/index.qmd
 
 
     - title: "Projects"
