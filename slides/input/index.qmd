@@ -1,59 +1,151 @@
 ---
-title: "Navigating the Arrival of AI in University Administration"
+titel: "Input: KI in der Hochschulverwaltung"
+
 ---
 
-## Introduction
 
-Universities face unique challenges with LLMs like ChatGPT because they:
+## Künstliche Intelligenz
 
-- Bypass traditional technology evaluation processes
-- Enter through spontaneous adoption
-- Require reactive rather than proactive policies
+- **Künstliche Intelligenz (KI)** bezieht sich auf Systeme, die Aufgaben ausführen wie:
+    - Verarbeitung natürlicher Sprache
+    - Visuelle Wahrnehmung
+    - Entscheidungsfindung
+    - Problemlösung
 
-## Traditional vs. Arrival Technologies
+- KI-Systeme können **trainiert** werden, um aus Daten zu lernen und Muster zu erkennen.
+
+- KI hat das Potenzial, in vielen Bereichen eingesetzt zu werden, wie:
+  
+    - Personalisierte Empfehlungen
+    - Selbstfahrende Autos
+    - Unterstützung bei Entscheidungen
+    - Vorhersage von Proteinfaltungen
+    - Erstellung von Musik/Bildern/Texten
+
+
+
+## KI verrichtet geistige Arbeit
+
+- **Kognitive Arbeit und KI**: KI hat das Potential zu verändern, wie *geistige*Arbeit verrichtet wird.
+
+- **Wichtige Erkenntnisse aus der Forschung**:
+  - @dellacquaNavigatingJaggedTechnological2023 erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.
+  - @toner-rodgersArtificialIntelligenceScientific diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.
+  - @cuiEffectsGenerativeAI2024a analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.
+
+- **Anwendungen**:
+  - Automatisierung von routinemässigen kognitiven Aufgaben
+  - Unterstützung kreativer Bestrebungen
+  - Deskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren
+  - Ohne Training: KI-Tools werden für ungeeignete Aufgaben eingesetzt
+
+
+<!-- [@dellacquaNavigatingJaggedTechnological2023; @toner-rodgersArtificialIntelligenceScientific; @cuiEffectsGenerativeAI2024a] -->
+
+## Körperliche Arbeit
+
+Im Wandel der Zeit
 
 :::: {.columns}
 ::: {.column width="50%"}
-**Traditional Adoption**
+**19. Jahrhundert**
 
-- Careful evaluation
-- Committee review
-- Pilot testing
-- Staff training
-- Clear timelines
-- Established policies
+![](../../assets/images/koerperlich.png)
 :::
-
 ::: {.column width="50%"}
-**Arrival Technologies**
+**20. Jahrhundert**
 
-- Spontaneous use
-- Bypass processes
-- No preparation
-- User-led adoption
-- Reactive policies
-- Informal training
+![](../../assets/images/maschinell.png)
 :::
 ::::
 
-## Real-World Examples
+:::{.attribution}
+Bildquelle: Erstellt mit DALL-E 3
+:::
 
-### Three Paths of Arrival
+## Wie sieht das für die kognitive Arbeit aus?
 
-1. **Student-Led**
-   - Spontaneous use in assignments
-   - Adoption of AI-enabled tools
-   - Creative applications
 
-2. **Staff-Led**
-   - Discovery of AI tools
-   - Informal adoption
-   - Peer-to-peer sharing
 
-3. **System-Led**
-   - AI features in existing software
-   - Integration into common tools
-   - Platform updates
+## Ankunftstechnologien
+
+:::: {.columns}
+::: {.column width="50%"}
+Hochschulen stehen vor Herausforderungen mit Technologien wie ChatGPT, weil sie:
+
+- Traditionelle Technologieevaluierungsprozesse umgehen
+- Durch **spontane Adoption** eingeführt werden
+- Reaktive statt proaktive Richtlinien erfordern
+:::
+
+::: {.column width="50%"}
+![](../../assets/images/arrival.png)
+
+:::
+::::
+
+:::{.attribution}
+Bildquelle: Erstellt mit DALL-E 3 ("ChatGPT arriving at a university in the style of a 14th century painting.")
+:::
+
+
+## Traditionelle vs. Ankunftstechnologien
+
+[@reichNewTheoryArrival2024]
+
+:::: {.columns}
+::: {.column width="50%"}
+**Traditionelle Einführung**
+
+- Sorgfältige Bewertung
+- Pilotversuche
+- Mitarbeiterschulung
+- Klare Zeitpläne
+- Etablierte Richtlinien
+
+- **Beispiele**:
+  - Learning Management Systems
+  - Smart boards
+
+:::
+
+::: {.column width="50%"}
+**Ankunftstechnologien**
+
+- Spontane Nutzung
+- Umgehung von Prozessen
+- Keine Vorbereitung
+- Benutzergeführte Einführung
+- Reaktive Richtlinien
+- Informelle Schulung
+
+- **Beispiele**:
+  - Smartphones
+  - Wikipedia
+  - Social Media
+  - ChatGPT
+:::
+::::
+
+
+
+## Drei Wege der Ankunft
+
+1. **Von Studierenden angeführt**
+   - Spontane Nutzung in Aufgaben
+   - Übernahme von KI-gestützten Tools
+   - Kreative Anwendungen
+
+2. **Von Mitarbeitenden angeführt**
+   - Entdeckung von KI-Tools
+   - Informelle Übernahme
+   - Peer-to-Peer-Austausch
+
+3. **Systemgeführt**
+   - KI-Funktionen in bestehender Software
+   - Integration in gängige Tools
+   - Plattform-Updates
+
 
 ## Understanding LLMs
 
@@ -152,3 +244,10 @@ Key Questions:
 ::: {.notes}
 This presentation covers the key aspects of managing AI arrival in university settings, focusing on practical approaches and necessary considerations for administrators.
 ::: 
+
+
+
+## References {background-color="#D8DEE9"}
+
+::: {#refs}
+:::
