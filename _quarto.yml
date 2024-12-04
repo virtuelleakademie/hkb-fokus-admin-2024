@@ -9,16 +9,16 @@ project:
   render:
     - index.qmd
     - workshop/**/*.qmd
-    - projects/**/*.qmd
+    # - projects/**/*.qmd
     - notebooks/*.ipynb
     # - "!tutorials/tutorial-1/index.qmd"
     - slides/**/*.qmd
-    - slides/openai-platform/index.qmd
+    # - slides/openai-platform/index.qmd
 
 website:
-  title: "Promptly Engineered"
-  site-url: https://virtuelleakademie.github.io/promptly-engineered
-  # repo-url: https://github.com/virtuelleakademie/promptly-engineered
+  title: "Fokus Administration HKB"
+  site-url: https://virtuelleakademie.github.io/hkb-fokus-admin-2024
+  # repo-url: https://github.com/virtuelleakademie/hkb-fokus-admin-2024
   # repo-actions: [edit, issue]
   favicon: /assets/robot.png
   open-graph: true
@@ -37,9 +37,9 @@ website:
         href: workshop/index.qmd
         text: Workshop
 
-      - icon: code-square
-        href: projects/anki/index.qmd
-        text: Projects
+      # - icon: code-square
+      #   href: projects/anki/index.qmd
+      #   text: Projects
 
       - icon: file-slides
         text: "Slides" # {{< fa person-chalkboard >}}
@@ -69,9 +69,9 @@ website:
       - icon: github
         menu:
           - text: Source code
-            url:  https://github.com/virtuelleakademie/promptly-engineered/
+            url:  https://github.com/virtuelleakademie/hkb-fokus-admin-2024/
           - text: Report an issue
-            url:  https://github.com/virtuelleakademie/promptly-engineered/issues
+            url:  https://github.com/virtuelleakademie/hkb-fokus-admin-2024/issues
             
   sidebar:
     - title: "Workshop"
@@ -100,7 +100,7 @@ website:
 page-footer:
     right:
     - icon: github
-      href: https://github.com/virtuelleakademie/promptly-engineered
+      href: https://github.com/virtuelleakademie/hkb-fokus-admin-2024
 
 format:
   html:
