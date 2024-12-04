@@ -338,7 +338,7 @@
     "href": "workshop/index.html",
     "title": "Fokus Administration HKB",
     "section": "",
-    "text": "The workshop is structured as follows:\n\nIntroduction\nSetup coding environment\n\nsetup Python\nsetup VSCode\ninstall Github Copilot\n\nVerify OpenAI installation\nUsing the OpenAI API\nProject: Use GPT-4o to generate Anki flashcards\nConclusions and discussion\n\n\n13:30 – 13:45  BegrüssungInput zu Notebook LM (Nina 15’) \n13:45 – 14:35  Input: KI erste Schritte, Datenschutz (Andrew 50’) \n14:35 – 14:55 Austausch in Gruppen, visuell auf Flipchart (Dana 20’) 1. Wo könnte mir KI helfen, wenn es zaubern könnte 2. Was habe ich für konkrete Aufgaben, die KI für mich lösen dürfte \n14:55 – 15:05 &gt;&gt; Gruppen stellen Ergebnisse vor (alle 10’) \n14:05 – 15:20 Pause (15’) \n15:20 – 15:35 Input Prompting (Andrew 15’) \n15:35 – 16:35 (Raymond 60’ total) Einführung zu Tools: Chat GPT, Copilot &gt;&gt; Aufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think - Pair – Share (Raymond, Andrew) \n16:35 – 16:50 Präsentation der Ergebnisse (15’) \n16:50 – 17:00 Austausch, Abschluss (10’) \nAb 17:00 Apero mit VMAD-HKB im OG\n\n\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Workshop-Program uf einen Blick:\n\n\n\n\n\n\nBegrüssung und Input zu NotebookLM\n\n\n\n 13:30 – 13:45   (Nina 15’) \n\n\n\n\n\n\n\n\nInput: KI erste Schritte, Datenschutz\n\n\n\n 13:45 – 14:35 (Andrew 50’) \n\n\n\n\n\n\n\n\nAustausch in Gruppen, visuell auf Flipchart\n\n\n\n 14:35 – 14:55 (Dana 20’) \n\nWo könnte mir KI helfen, wenn es zaubern könnte?\nWas habe ich für konkrete Aufgaben, die KI für mich lösen dürfte?\n\n\n\n\n\n\n\n\n\nGruppen stellen Ergebnisse vor\n\n\n\n 14:55 – 15:05  (alle 10’) \n\n\n\n\n\n\n\n\nPause\n\n\n\n 14:05 – 15:20\n\n\n\n\n\n\n\n\nInput Prompting\n\n\n\n 15:20 – 15:35  Andrew 15’\n\n\n\n\n\n\n\n\nEinführung zu Tools: ChatGPT, Copilot\n\n\n\n 15:35 – 16:35 (Raymond 60’) \n\nEinführung zu Tools: ChatGPT, Copilot \nAufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think - Pair – Share\n\n\n\n\n\n\n\n\n\nPräsentation der Ergebnisse\n\n\n\n 16:35 – 16:50\n\n\n\n\n\n\n\n\nAustausch, Abschluss\n\n\n\n 16:50 – 17:00\n\n\n\n\n\n\n\n\nAb 17:00 Apero mit VMAD-HKB im OG\n\n\n\n Ab 17:00\n\n\n\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
     "crumbs": [
       "Workshop",
       "Introduction and setup"
@@ -630,5 +630,16 @@
     "title": "AI-Enhanced Journal Club",
     "section": "Slide 2",
     "text": "Slide 2"
+  },
+  {
+    "objectID": "workshop/index.html#begrüssung",
+    "href": "workshop/index.html#begrüssung",
+    "title": "Fokus Administration HKB",
+    "section": "Begrüssung",
+    "text": "Begrüssung\nBegrüssung und Input zu Notebook LM (Nina 15’)  :::\n\n\n\n\n\n\nInput: KI erste Schritte, Datenschutz\n\n\n\n 13:45 – 14:35 (Andrew 50’) \n\n\n\n\n\n\n\n\nAustausch in Gruppen, visuell auf Flipchart\n\n\n\n 14:35 – 14:55 Austausch in Gruppen, visuell auf Flipchart (Dana 20’) \n\nWo könnte mir KI helfen, wenn es zaubern könnte 2. Was habe ich für konkrete Aufgaben, die KI für mich lösen dürfte \n\n\n\n\n\n\n\n\n\n&gt;&gt; Gruppen stellen Ergebnisse vor\n\n\n\n 14:55 – 15:05 &gt;&gt; Gruppen stellen Ergebnisse vor (alle 10’) \n\n\n\n\n\n\n\n\nPause\n\n\n\n 14:05 – 15:20 Pause (15’) \n\n\n\n\n\n\n\n\nInput Prompting\n\n\n\n 15:20 – 15:35 Input Prompting (Andrew 15’) \n\n\n\n\n\n\n\n\nEinführung zu Tools: Chat GPT, Copilot\n\n\n\n 15:35 – 16:35 (Raymond 60’ total) Einführung zu Tools: Chat GPT, Copilot &gt;&gt; Aufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think - Pair – Share (Raymond, Andrew) \n\n\n\n\n\n\n\n\nPräsentation der Ergebnisse\n\n\n\n 16:35 – 16:50 Präsentation der Ergebnisse (15’) \n\n\n\n\n\n\n\n\nAustausch, Abschluss\n\n\n\n 16:50 – 17:00 Austausch, Abschluss (10’) \n\n\n\n\n\n\n\n\nAb 17:00 Apero mit VMAD-HKB im OG\n\n\n\nAb 17:00 Apero mit VMAD-HKB im OG",
+    "crumbs": [
+      "Workshop",
+      "Begrüssung"
+    ]
   }
 ]
