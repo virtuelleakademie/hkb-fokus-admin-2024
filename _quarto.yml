@@ -200,7 +200,7 @@ custom-callout:
     color: "orange"
     collapse: true
 
-  tip:
+  pro-tip:
     title: "Pro Tip"
     icon-symbol: "💡"
     color: "gold"
