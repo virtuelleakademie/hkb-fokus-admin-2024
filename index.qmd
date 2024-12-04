@@ -1,11 +1,11 @@
 ---
 # title: "AI-Enhanced Journal Club"
-title: "Virtuelle Akademie"
+# title: "Virtuelle Akademie"
 format:
   html:
     toc: false
 about:
-  template: solana #trestles
+  template: jolla #trestles
 #   image: "assets/logo.png"
   links:
     - icon: magic
@@ -25,8 +25,9 @@ about:
 
 # QR Code
 
-{{< qrcode https://virtuelleakademie.github.io/promptly-engineered/ width=400 height=400 colorDark='#000000' >}}
+{{< qrcode https://virtuelleakademie.github.io/hkb-fokus-admin-2024/ width=400 height=400 colorDark='#000000' >}}
 
 <br> 
 
-{{< bi link >}} [virtuelleakademie.github.io/promptly-engineered](https://virtuelleakademie.github.io/promptly-engineered/)
+{{< bi link >}} [virtuelleakademie.github.io/hkb-fokus-admin-2024](https://virtuelleakademie.github.io/hkb-fokus-admin-2024/)
+
