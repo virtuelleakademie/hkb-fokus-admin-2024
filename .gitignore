@@ -96,3 +96,5 @@ pages/config.yaml
 
 # assets
 /assets/ppt/*
+
+/.luarc.json
