@@ -11,7 +11,7 @@ title: "Understanding Large Language Models"
 ![](../assets/images/training.png)
  
 
-
+ 
 ## How do LLMs generate text?
 $$
 \newcommand{\purple}[1]{\color{purple}{#1}}
