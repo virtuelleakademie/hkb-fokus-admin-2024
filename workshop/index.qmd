@@ -1,16 +1,7 @@
 ---
-title: "Contents"
+# title: "Contents"
 ---
 
-
-In this workshop, we will cover the following topics:
-
-- Using the OpenAI API
-- Creating an Anki flashcard generator using the OpenAI API
-
-We will work with the GPT-4o-mini and GPT-4o models from OpenAI. Note that we could also use local models, but this would require a bit more setup and is outside the scope of this workshop.
-
-The focus of this workshop is on using the OpenAI API, so we will only discuss Python in passing. I do recommend that you install an AI coding assistant, such as Github Copilot. For beginners, this will help to get you started with Python. 
 
 
 The workshop is structured as follows:
@@ -24,6 +15,27 @@ The workshop is structured as follows:
 (@) Using the OpenAI API
 (@) Project: Use GPT-4o to generate Anki flashcards
 (@) Conclusions and discussion
+
+
+> 13:30 – 13:45  BegrüssungInput zu Notebook LM (Nina 15’) 
+> 
+> 13:45 – 14:35  Input: KI erste Schritte, Datenschutz (Andrew 50’) 
+> 
+> 14:35 – 14:55 Austausch in Gruppen, visuell auf Flipchart (Dana 20’) 1. Wo könnte mir KI helfen, wenn es zaubern könnte 2. Was habe ich für konkrete Aufgaben, die KI für mich lösen dürfte 
+> 
+> 14:55 – 15:05 >> Gruppen stellen Ergebnisse vor (alle 10’) 
+> 
+> 14:05 – 15:20 Pause (15’) 
+> 
+> 15:20 – 15:35 Input Prompting (Andrew 15’) 
+> 
+> 15:35 – 16:35 (Raymond 60’ total) Einführung zu Tools: Chat GPT, Copilot >> Aufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think - Pair – Share (Raymond, Andrew) 
+> 
+> 16:35 – 16:50 Präsentation der Ergebnisse (15’) 
+> 
+> 16:50 – 17:00 Austausch, Abschluss (10’) 
+> 
+> Ab 17:00 Apero mit VMAD-HKB im OG
 
 
 
