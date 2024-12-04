@@ -1,0 +1,11 @@
+---
+title: "Input: Prompting"
+---
+
+
+
+{{< revealjs file="../../slides/prompting/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+
+{{< revealjs file="../../slides/prompt-engineering-intermediate/index.html" height="500px" class="ratio ratio-16x9" >}}
+
