@@ -210,13 +210,13 @@ custom-callout:
   prompt-example:
     title: "Example Prompt"
     icon-symbol: "👩🏼‍🔧"
-    color: "darkblue"
+    color: "steelblue"
     collapse: false
 
   output-example:
     title: "Output Example"
     icon-symbol: "📄"
-    color: "darkgreen"
+    color: "purple"
     collapse: true
 
   prompt-template:
