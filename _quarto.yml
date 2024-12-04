@@ -48,12 +48,10 @@ website:
             file: slides/presentation/index.qmd
           - text: "Prompting"
             file: slides/prompting/index.qmd
-          - text: "Understanding LLMs"
-            file: slides/understanding-llms/index.qmd
-          - text: "Basic prompt engineering"
-            file: slides/prompt-engineering-basics/index.qmd
-          - text: "Intermediate prompt engineering"
-            file: slides/prompt-engineering-intermediate/index.qmd
+          # - text: "Basic prompt engineering"
+          #   file: slides/prompt-engineering-basics/index.qmd
+          # - text: "Intermediate prompt engineering"
+          #   file: slides/prompt-engineering-intermediate/index.qmd
 
       # - icon: wrench-adjustable #tools
       #   text: "Resources"
