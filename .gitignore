@@ -71,7 +71,7 @@ cython_debug/
 
 # R specific
 .Rproj.user
-promptly-engineered.Rproj
+*.Rproj
 
 # MacOS specific
 .DS_Store
