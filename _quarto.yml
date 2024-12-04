@@ -42,12 +42,14 @@ website:
       #   text: Projects
 
       - icon: file-slides
-        text: "Slides" # {{< fa person-chalkboard >}}
+        text: "Dokumente" # {{< fa person-chalkboard >}}
         menu:
-          - text: "Input"
+          - text: "Input: KI erste Schritte"
             file: slides/presentation/index.qmd
-          - text: "Prompting"
+          - text: "Input: Prompting"
             file: slides/prompting/index.qmd
+          - text: "Begleitdokument: KI Weiterbildung"
+            file: assets/pdfs/Begleitdokument.pdf
           # - text: "Basic prompt engineering"
           #   file: slides/prompt-engineering-basics/index.qmd
           # - text: "Intermediate prompt engineering"
