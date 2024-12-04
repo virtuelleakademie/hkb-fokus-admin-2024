@@ -1,0 +1,6 @@
+---
+title: "Input: KI erste Schritte, Datenschutz"
+---
+
+
+{{< revealjs file="../../slides/presentation/index.html" height="500px" class="ratio ratio-16x9" >}}
