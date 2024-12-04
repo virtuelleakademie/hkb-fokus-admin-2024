@@ -1,0 +1,154 @@
+---
+title: "Navigating the Arrival of AI in University Administration"
+---
+
+## Introduction
+
+Universities face unique challenges with LLMs like ChatGPT because they:
+
+- Bypass traditional technology evaluation processes
+- Enter through spontaneous adoption
+- Require reactive rather than proactive policies
+
+## Traditional vs. Arrival Technologies
+
+:::: {.columns}
+::: {.column width="50%"}
+**Traditional Adoption**
+
+- Careful evaluation
+- Committee review
+- Pilot testing
+- Staff training
+- Clear timelines
+- Established policies
+:::
+
+::: {.column width="50%"}
+**Arrival Technologies**
+
+- Spontaneous use
+- Bypass processes
+- No preparation
+- User-led adoption
+- Reactive policies
+- Informal training
+:::
+::::
+
+## Real-World Examples
+
+### Three Paths of Arrival
+
+1. **Student-Led**
+   - Spontaneous use in assignments
+   - Adoption of AI-enabled tools
+   - Creative applications
+
+2. **Staff-Led**
+   - Discovery of AI tools
+   - Informal adoption
+   - Peer-to-peer sharing
+
+3. **System-Led**
+   - AI features in existing software
+   - Integration into common tools
+   - Platform updates
+
+## Understanding LLMs
+
+- Pattern matching systems trained on text data
+- Statistical models predicting likely next words
+- Not intelligent systems
+- Sophisticated imitation engines
+
+## How LLMs Work
+
+### Core Mechanism: Conditional Text Generation
+
+1. Takes input as context
+2. Predicts likely next word
+3. Uses new context
+4. Continues prediction process
+5. Generates complete response
+
+## Verification Methods
+
+- Cross-reference with authoritative sources
+- Check internal consistency
+- Look for outdated information
+- Watch for AI indicators:
+  - Overly confident tone
+  - Generic examples
+  - Repetitive patterns
+  - Unnatural language
+
+## Critical Concerns
+
+### Privacy Risks
+- Data retention in training
+- FERPA considerations
+- Confidential information
+- Institutional data
+
+### Copyright and IP
+- Ownership questions
+- Training data rights
+- Plagiarism risks
+- Legal considerations
+
+## Security and Access
+
+### Data Security
+- Third-party vendor access
+- Cross-border data flow
+- Retention policies
+- Access control
+
+### Equity Concerns
+- Access to paid tools
+- Technical literacy
+- Resource disparities
+- Training needs
+
+## Practical Applications
+
+Current Uses:
+- Email and correspondence
+- Document processing
+- Report generation
+- Data organization
+- Process documentation
+
+## Managing Arrival Technology
+
+### Immediate Steps
+1. Acknowledge current use
+2. Share best practices
+3. Develop guidelines
+4. Address key concerns
+
+### Long-term Strategy
+1. Create comprehensive policies
+2. Establish training programs
+3. Monitor impacts
+4. Adapt to changes
+
+## Looking Forward
+
+Key Questions:
+1. How is your department adapting?
+2. What guidelines are needed?
+3. How can we ensure responsible use?
+4. What support do staff need?
+
+## Next Steps
+
+1. Document current uses
+2. Share experiences
+3. Develop policies
+4. Plan training
+
+::: {.notes}
+This presentation covers the key aspects of managing AI arrival in university settings, focusing on practical approaches and necessary considerations for administrators.
+::: 
