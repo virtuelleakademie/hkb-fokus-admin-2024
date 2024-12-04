@@ -1,10 +1,10 @@
 ---
-# title: "Contents"
+title: "Inhalt"
 ---
 
 
 
-Workshop-Program uf einen Blick:
+Workshop-Program auf einen Blick:
 
 
 | {{< bi clock >}} | {{< bi body-text >}} Inhalt | {{< bi person-fill >}} |
