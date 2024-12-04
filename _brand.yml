@@ -6,8 +6,8 @@ color:
   foreground: dark-grey
   primary: black
 
-logo: 
-  medium: assets/bfh-logo.png
+# logo: 
+#   large: assets/bfh-logo.png
 
 typography:
   fonts:
