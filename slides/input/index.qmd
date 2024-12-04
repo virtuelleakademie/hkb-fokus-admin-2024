@@ -346,80 +346,96 @@ Die verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken
 
 ## Rechtliche Aspekte
 
-![](../../assets/images/rechtliche-aspekte.png)
+Zwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen:
 
 
-## Critical Concerns
+<br> <br>
 
-### Privacy Risks
-- Data retention in training
-- FERPA considerations
-- Confidential information
-- Institutional data
+:::: {.columns}
+::: {.column width="50%"}
+**Rechtliche Aspekte {{< bi c-circle >}}**
 
-### Copyright and IP
-- Ownership questions
-- Training data rights
-- Plagiarism risks
-- Legal considerations
-
-## Security and Access
-
-### Data Security
-- Third-party vendor access
-- Cross-border data flow
-- Retention policies
-- Access control
-
-### Equity Concerns
-- Access to paid tools
-- Technical literacy
-- Resource disparities
-- Training needs
-
-## Practical Applications
-
-Current Uses:
-- Email and correspondence
-- Document processing
-- Report generation
-- Data organization
-- Process documentation
-
-## Managing Arrival Technology
-
-### Immediate Steps
-1. Acknowledge current use
-2. Share best practices
-3. Develop guidelines
-4. Address key concerns
-
-### Long-term Strategy
-1. Create comprehensive policies
-2. Establish training programs
-3. Monitor impacts
-4. Adapt to changes
-
-## Looking Forward
-
-Key Questions:
-1. How is your department adapting?
-2. What guidelines are needed?
-3. How can we ensure responsible use?
-4. What support do staff need?
-
-## Next Steps
-
-1. Document current uses
-2. Share experiences
-3. Develop policies
-4. Plan training
-
-::: {.notes}
-This presentation covers the key aspects of managing AI arrival in university settings, focusing on practical approaches and necessary considerations for administrators.
-::: 
+- Wer besitzt die Rechte an den von LLMs generierten Inhalten?
+- Risiko von Plagiaten und Urheberrechtsverletzungen
+- Richtlinien für den Umgang mit generierten Inhalten
 
 
+:::
+::: {.column width="50%"}
+**Datenschutz {{< bi shield-lock >}}**
+
+- Schutz personenbezogener Daten
+- Einhaltung von Datenschutzbestimmungen
+:::
+::::
+
+
+## Rechtliche Aspekte 
+
+- KI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben---dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.
+
+- Der Input (Prompt) kann geschützte Inhalte Dritter enthalten, deren Nutzung ohne rechtliche Grundlage Urheberrechte verletzt.
+
+- Der von der KI generierte Output kann zufällig geschützte Inhalte Dritter enthalten.
+
+
+## Rechtliche Aspekte 
+
+- Anbieter von KI-Plattformen können sich Rechte an generierten Inhalten vorbehalten, was ebenfalls rechtliche Herausforderungen mit sich bringen kann.
+
+- OpenAI-Nutzungsbedingungen: die Rechte an generierten Inhalten abgetreten, OpenAI behält sich aber Nutzungsrechte vor.
+
+- Nutzende/r ist in der Verantwortung, die rechtlichen Anforderungen einzuhalten.
+
+## Empfehlung
+
+KI-Policy: Geben Sie deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass kein Nutzer dies übersehen oder missverstehen kann: 
+
+:::{.callout-tip title="Deklaration"}
+Der/die Autor\*in hat diesen Text teilweise mit `[[Modell]]` erstellt. Nach der Erstellung des Entwurfs hat der/die Autor\*in den Text überprüft, bearbeitet und nach eigenem Ermessen angepasst und übernimmt die volle Verantwortung für den Inhalt dieser Veröffentlichung.
+:::
+
+Zitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden.
+
+## Datenschutz
+
+Datenschutz allgemein bedeutet:
+
+- sicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.
+
+- Transparenz darüber, welche Daten erhoben und wie sie verwendet werden.
+- sicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden
+- Recht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch
+- Einhaltung von Datenschutzgesetzen und -vorschriften
+
+:::{.callout-caution appearance="minimal"}
+Lehrpersonen müssen Datenschutz immer beim Einsatz von (digitalen) Tools beachten.
+:::
+
+
+Datensicherheit bedeutet:
+
+- Daten so zu speichern, dass sie nicht verloren gehen, nicht manipuliert werden können
+- technische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten
+
+## Schutzmassnahmen
+
+:::: {.columns}   
+::: {.column width="50%"}
+- Keine persönlichen Daten in die Eingabe von ChatGPT einfliessen lassen (nur anonymisierte Informationen)
+
+- Keine Eingabe von sensiblen oder vertraulichen Informationen (Informationen über gesundheitliche, finanzielle oder private Angelegenheiten)
+
+:::
+
+::: {.column width="50%"}
+Einstellungen im Konto für Datenkontrolle:
+
+![](../../assets/images/schutzmassnahmen.png){width=80%}
+:::
+::::
+
+## Fragen?
 
 ## References {background-color="#D8DEE9"}
 
