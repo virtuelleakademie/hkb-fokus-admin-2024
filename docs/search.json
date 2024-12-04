@@ -336,12 +336,12 @@
   {
     "objectID": "workshop/index.html",
     "href": "workshop/index.html",
-    "title": "Fokus Administration HKB",
+    "title": "Inhalt",
     "section": "",
-    "text": "Workshop-Program uf einen Blick:\n\n\n\n\n\n\nBegrüssung und Input zu NotebookLM\n\n\n\n 13:30 – 13:45   (Nina 15’) \n\n\n\n\n\n\n\n\nInput: KI erste Schritte, Datenschutz\n\n\n\n 13:45 – 14:35 (Andrew 50’) \n\n\n\n\n\n\n\n\nAustausch in Gruppen, visuell auf Flipchart\n\n\n\n 14:35 – 14:55 (Dana 20’) \n\nWo könnte mir KI helfen, wenn es zaubern könnte?\nWas habe ich für konkrete Aufgaben, die KI für mich lösen dürfte?\n\n\n\n\n\n\n\n\n\nGruppen stellen Ergebnisse vor\n\n\n\n 14:55 – 15:05  (alle 10’) \n\n\n\n\n\n\n\n\nPause\n\n\n\n 14:05 – 15:20\n\n\n\n\n\n\n\n\nInput Prompting\n\n\n\n 15:20 – 15:35  Andrew 15’\n\n\n\n\n\n\n\n\nEinführung zu Tools: ChatGPT, Copilot\n\n\n\n 15:35 – 16:35 (Raymond 60’) \n\nEinführung zu Tools: ChatGPT, Copilot \nAufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think - Pair – Share\n\n\n\n\n\n\n\n\n\nPräsentation der Ergebnisse\n\n\n\n 16:35 – 16:50\n\n\n\n\n\n\n\n\nAustausch, Abschluss\n\n\n\n 16:50 – 17:00\n\n\n\n\n\n\n\n\nAb 17:00 Apero mit VMAD-HKB im OG\n\n\n\n Ab 17:00\n\n\n\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Workshop-Program auf einen Blick:\n\n\n\n\n\n\n\n\n\n Inhalt\n\n\n\n\n\n13:30 – 13:45\nBegrüssung und Input zu Notebook LM\nNina\n\n\n13:45 – 14:35\nInput: KI erste Schritte, Datenschutz\nAndrew\n\n\n14:35 – 14:55\nAustausch in Gruppen, visuell auf Flipchart\nDana\n\n\n14:55 – 15:05\nGruppen stellen Ergebnisse vor\n\n\n\n14:05 – 15:20\nPause\n\n\n\n15:20 – 15:35\nInput Prompting\nAndrew\n\n\n15:35 – 16:35\nEinführung zu Tools: Chat GPT, Copilot  Aufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think-Pair–Share\nRaymond\n\n\n16:35 – 16:50\nPräsentation der Ergebnisse\n\n\n\n16:50 – 17:00\nAustausch, Abschluss\n\n\n\nAb 17:00\nApero mit VMAD-HKB im OG\n\n\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
     "crumbs": [
       "Workshop",
-      "Introduction and setup"
+      "Inhalt"
     ]
   },
   {
@@ -640,6 +640,217 @@
     "crumbs": [
       "Workshop",
       "Begrüssung"
+    ]
+  },
+  {
+    "objectID": "slides/presentation/index.html#what-is-a-large-language-model",
+    "href": "slides/presentation/index.html#what-is-a-large-language-model",
+    "title": "Understanding Large Language Models",
+    "section": "What is a Large Language Model?",
+    "text": "What is a Large Language Model?\n\nNeural network trained on vast amounts of text data.\nOutputs a distribution over all possible tokens, conditioned on input sequence.\nLLMs undergo three key stages of training:"
+  },
+  {
+    "objectID": "slides/presentation/index.html#how-do-llms-generate-text",
+    "href": "slides/presentation/index.html#how-do-llms-generate-text",
+    "title": "Understanding Large Language Models",
+    "section": "How do LLMs generate text?",
+    "text": "How do LLMs generate text?\n\\[\n\\newcommand{\\purple}[1]{\\color{purple}{#1}}\n\\newcommand{\\red}[1]{\\color{red}{#1}}\n\\newcommand{\\blue}[1]{\\color{blue}{#1}}\n\\] \\[\\purple{P(x_{i+1}} \\mid \\blue{\\text{Context}}, \\red{\\text{Model}})\\]\n\n\n\\(\\purple{\\text{Next token}}\\)\n\\(\\blue{\\text{The input sequence}:\\ x_1, \\ldots, x_i}\\)\n\\(\\red{\\text{The learned model}}\\)"
+  },
+  {
+    "objectID": "slides/presentation/index.html#how-do-llms-generate-text-1",
+    "href": "slides/presentation/index.html#how-do-llms-generate-text-1",
+    "title": "Understanding Large Language Models",
+    "section": "How do LLMs generate text?",
+    "text": "How do LLMs generate text?"
+  },
+  {
+    "objectID": "slides/presentation/index.html#the-space-of-all-possible-outputs",
+    "href": "slides/presentation/index.html#the-space-of-all-possible-outputs",
+    "title": "Understanding Large Language Models",
+    "section": "The Space Of All Possible Outputs",
+    "text": "The Space Of All Possible Outputs\n\n\nFigure from Shanahan, McDonell, and Reynolds (2023)\n\n\nAn LLM has the capacity to generate any number of possible documents based on its training. However, the context we provide narrows down the potential outputs by guiding the model along specific trajectories.\n- Without context: All paths are equally possible.\n- With context: The paths are constrained, reducing the potential outcomes.\n\nFigure Description: A branching tree diagram. At the base (without context), the tree splits into many branches, each representing a possible document. As tokens (context) are added, paths narrow, showing fewer branches remaining as viable output possibilities."
+  },
+  {
+    "objectID": "slides/presentation/index.html#what-do-llms-learn",
+    "href": "slides/presentation/index.html#what-do-llms-learn",
+    "title": "Understanding Large Language Models",
+    "section": "What Do LLMs Learn?",
+    "text": "What Do LLMs Learn?\n\n\nSyntax and grammar\nSemantics, pragmatics\nWorld knowledge is statistical (associational) and not grounded in direct experience or sensory input\nThey can simulate reasoning and planning, but can they actually reason and plan (Kambhampati 2024)?"
+  },
+  {
+    "objectID": "slides/presentation/index.html#can-llms-reason",
+    "href": "slides/presentation/index.html#can-llms-reason",
+    "title": "Understanding Large Language Models",
+    "section": "Can LLMs Reason?",
+    "text": "Can LLMs Reason?\n\n\n\n\n\n\nExample Prompt\n\n\nA farmer needs to transport a wolf, a goat, and a cabbage across a river using a small boat. The boat can carry only the farmer and one other item (either the wolf, the goat, or the cabbage) at a time. However, if left together without the farmer’s supervision: The wolf will eat the cabbage. The goat will eat the wolf. The challenge is to figure out how the farmer can get all three items across the river safely. What is the sequence of moves that the farmer needs to make?\n\n\n\n\n\n\n\n\n\nOutput Example\n\n\nThis is a classic puzzle with a twist! Here’s the step-by-step solution for safely transporting the wolf, goat, and cabbage across the river:\n1.  First trip: The farmer takes the goat across the river and leaves it on the other side.\n2.  Second trip: The farmer returns alone to the original side.\n3.  Third trip: The farmer takes the wolf across the river.\n4.  Fourth trip: The farmer leaves the wolf on the other side but takes the goat back to the original side.\n5.  Fifth trip: The farmer takes the cabbage across the river and leaves it with the wolf.\n6.  Sixth trip: The farmer returns alone to the original side.\n7.  Seventh trip: The farmer takes the goat across the river.\nNow, all three (wolf, goat, and cabbage) are safely across the river, and the puzzle is solved!\nKey point: By taking the goat back on the fourth trip, the farmer ensures that neither the wolf nor the goat are left together, and neither are the goat and the cabbage left together.\n\n\n\n A wolf, goat, and cabbage problem with a twist"
+  },
+  {
+    "objectID": "slides/presentation/index.html#manhole-covers-why-are-they-round",
+    "href": "slides/presentation/index.html#manhole-covers-why-are-they-round",
+    "title": "Understanding Large Language Models",
+    "section": "Manhole Covers: Why Are They Round?",
+    "text": "Manhole Covers: Why Are They Round?"
+  },
+  {
+    "objectID": "slides/presentation/index.html#manhole-covers-why-are-they-round-1",
+    "href": "slides/presentation/index.html#manhole-covers-why-are-they-round-1",
+    "title": "Understanding Large Language Models",
+    "section": "Manhole Covers: Why Are They Round?",
+    "text": "Manhole Covers: Why Are They Round?\n\n\n\n\n\nThe human body that had to fit through the hole is round.\nA circle gives a maximum opening for a minimum surface area.\nHeavy round covers can be rolled rather than lifted into position.\nThey were easier and cheaper to manufacture than square pit covers of the same materials.\nA circle has a constant diameter and won’t fall into the pit if rotatedthe wrong way – a tricky problem to remedy if the access cover weighs well over 100kg as concrete and iron covers did.\n\n Why are manhole covers round?"
+  },
+  {
+    "objectID": "slides/presentation/index.html#sycophancy",
+    "href": "slides/presentation/index.html#sycophancy",
+    "title": "Understanding Large Language Models",
+    "section": "Sycophancy",
+    "text": "Sycophancy\nAccording to Sharma et al. (2023), LLMs are often programmed to be sycophantic, meaning they will say whatever the user wants to hear. This can be problematic in scientific discussions, but can be allowed for by prompting.\n\n\n\n\n\n\nExample Prompt\n\n\nSo sycophancy is basically a result of training an LLM to respect human preferences?\n\n\n\n\n\n\n\n\n\nOutput Example\n\n\nYes, that’s a good way to put it - it’s essentially an unintended consequence of training models to be “helpful” and “preferred” by humans. The paper shows this happens through several key mechanisms…"
+  },
+  {
+    "objectID": "slides/presentation/index.html#prompting",
+    "href": "slides/presentation/index.html#prompting",
+    "title": "Understanding Large Language Models",
+    "section": "Prompting",
+    "text": "Prompting\nPrompting guides the model through its space of possible outputs\n\\(\\purple{P(x_{i+1}} \\mid \\blue{\\text{Context}}, \\red{\\text{Model}})\\)\n\nPrompting guides the LLM along specific paths in its space of possible documents.\nEvery token in a prompt reduces the number of potential outcomes, helping the model generate relevant responses.\n\nWithout a prompt, all outputs are possible.\nAs tokens are added, the range of possible outputs shrinks, making the model’s behavior more predictable."
+  },
+  {
+    "objectID": "slides/presentation/index.html#how-prompting-reduces-uncertainty",
+    "href": "slides/presentation/index.html#how-prompting-reduces-uncertainty",
+    "title": "Understanding Large Language Models",
+    "section": "How Prompting Reduces Uncertainty",
+    "text": "How Prompting Reduces Uncertainty\n\nEach token conditions the model’s next prediction\nWith more context, the uncertainty (entropy) decreases, guiding the model towards a more specific output."
+  },
+  {
+    "objectID": "slides/presentation/index.html#the-power-of-prompting-why-it-matters",
+    "href": "slides/presentation/index.html#the-power-of-prompting-why-it-matters",
+    "title": "Understanding Large Language Models",
+    "section": "The Power of Prompting: Why It Matters",
+    "text": "The Power of Prompting: Why It Matters\n\nControls the behaviour of LLMs, steering them toward relevant outputs.\nWithout effective prompting, the full potential of an LLM remains untapped, as it may generate irrelevant or misleading outputs.\n\nPrompting allows us to:\n\nNavigate the vast space of possible outputs.\nAchieve more controlled and useful results.\n\nContexts are combinatorial:\n\nWe do not know how a model will behave conditioned on all possible contexts. The output is highly contingent on the prompt."
+  },
+  {
+    "objectID": "slides/presentation/index.html#prompt-engineering",
+    "href": "slides/presentation/index.html#prompt-engineering",
+    "title": "Understanding Large Language Models",
+    "section": " Prompt Engineering",
+    "text": "Prompt Engineering\n\nWe treat LLMs as black boxes\nWe use engineering approaches or trial and error to guide their behaviour."
+  },
+  {
+    "objectID": "slides/presentation/index.html#references",
+    "href": "slides/presentation/index.html#references",
+    "title": "Understanding Large Language Models",
+    "section": "References",
+    "text": "References\n\n\nKambhampati, Subbarao. 2024. “Can Large Language Models Reason and Plan?” Annals of the New York Academy of Sciences 1534 (1): 15–18. https://doi.org/10.1111/nyas.15125.\n\n\nShanahan, Murray, Kyle McDonell, and Laria Reynolds. 2023. “Role Play with Large Language Models.” Nature, November, 1–6. https://doi.org/10.1038/s41586-023-06647-8.\n\n\nSharma, Mrinank, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell, Samuel R. Bowman, Newton Cheng, et al. 2023. “Towards Understanding Sycophancy in Language Models.” October 27, 2023. https://doi.org/10.48550/arXiv.2310.13548."
+  },
+  {
+    "objectID": "slides/prompting/index.html#understand-llms-through-hands-on-experience",
+    "href": "slides/prompting/index.html#understand-llms-through-hands-on-experience",
+    "title": "Prompt Engineering: Basics",
+    "section": "Understand LLMs through Hands-On Experience",
+    "text": "Understand LLMs through Hands-On Experience\n\nDedicate time to actively using large language models (LLMs).\nUtilize LLMs for tasks related to your work or personal interests.\nExplore their abilities by posing diverse and unique prompts.\nObserve where LLMs work well and where they don’t."
+  },
+  {
+    "objectID": "slides/prompting/index.html#a-useful-metaphor",
+    "href": "slides/prompting/index.html#a-useful-metaphor",
+    "title": "Prompt Engineering: Basics",
+    "section": "A useful metaphor",
+    "text": "A useful metaphor\nImagine you are giving instructions to a junior intern or assistant."
+  },
+  {
+    "objectID": "slides/prompting/index.html#zero-shot-prompting",
+    "href": "slides/prompting/index.html#zero-shot-prompting",
+    "title": "Prompt Engineering: Basics",
+    "section": "Zero-Shot Prompting",
+    "text": "Zero-Shot Prompting\nDefinition: Asking the model to perform a task without providing examples.\n\n\n\n\n\n\nExample Prompt\n\n\nTranslate the following English text to French: ’Hello, how are you?"
+  },
+  {
+    "objectID": "slides/prompting/index.html#role-assignment",
+    "href": "slides/prompting/index.html#role-assignment",
+    "title": "Prompt Engineering: Basics",
+    "section": "Role assignment",
+    "text": "Role assignment\nTechnique: Define a specific role for the AI to adopt.\n\n\n\n\n\n\nExample Prompt\n\n\nYou are an expert historian. Explain the causes of World War I.\n\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\nYou are an 8-year-old child. Explain the causes of World War I.\n\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\nYou are an experienced emergency room nurse with over 15 years of experience in patient triage. Your role is to perform initial assessments of patients based on their reported symptoms and medical history. You have a calm demeanor and the ability to quickly prioritize cases based on severity. In this role, you will categorize patients’ conditions and recommend appropriate next steps."
+  },
+  {
+    "objectID": "slides/prompting/index.html#clear-communication",
+    "href": "slides/prompting/index.html#clear-communication",
+    "title": "Prompt Engineering: Basics",
+    "section": "Clear communication",
+    "text": "Clear communication\nTechnique: Use precise language and specific instructions\n\n\n\n\n\n\nExample Prompt\n\n\nYou are an ER nurse with 15+ years of triage experience.\nYour tasks: - Assess patients quickly based on symptoms and medical - Categorize conditions by severity - Recommend next steps for treatment\nYou are calm under pressure and efficient in prioritizing cases.\n\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\nList five benefits of regular exercise, each in a separate bullet point."
+  },
+  {
+    "objectID": "slides/prompting/index.html#emotion-prompting",
+    "href": "slides/prompting/index.html#emotion-prompting",
+    "title": "Prompt Engineering: Basics",
+    "section": "Emotion prompting",
+    "text": "Emotion prompting\nTechnique: Incorporate emotional language to potentially improve accuracy and response quality1.\n\n\n\n\n\n\nExample Prompt\n\n\nI’m really excited to learn about this! Can you enthusiastically explain how photosynthesis works?\n\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\nRate this essay according to [these criteria]. You will receive a bonus if you do a good job.\n\n\n\nEmotion prompting’s effectiveness in improving language model responses is debated. Some argue it could enhance naturalness, while others suggest minimal or inconsistent impact across tasks and models. More research is needed."
+  },
+  {
+    "objectID": "slides/prompting/index.html#provide-context",
+    "href": "slides/prompting/index.html#provide-context",
+    "title": "Prompt Engineering: Basics",
+    "section": "Provide context",
+    "text": "Provide context\nTechnique: Give relevant background information\n\n\n\n\n\n\nExample Prompt\n\n\nContext: You are working in a busy urban hospital emergency room during flu season. It’s currently 2 AM on a Saturday, and the waiting room is full. The hospital has been dealing with a recent outbreak of a new strain of influenza in the community.\nPatient Information:\n\n45-year-old male\nNo known pre-existing conditions\nNot on any regular medications\nLast flu shot was 2 years ago\nGiven this context and patient information, assess the following reported symptoms: [Insert symptoms here]"
+  },
+  {
+    "objectID": "slides/prompting/index.html#use-examples",
+    "href": "slides/prompting/index.html#use-examples",
+    "title": "Prompt Engineering: Basics",
+    "section": "Use examples",
+    "text": "Use examples\nThis is known as few-shot prompting.   Technique: Illustrate desired output with examples.\n\n\n\n\n\n\nExample Prompt\n\n\nPerform a triage assessment based on the patient’s symptoms. Format your response similar to the following examples:\nExample 1: Symptoms: Chest pain, shortness of breath, left arm numbness Assessment: Emergency Reason: Symptoms strongly indicate a possible heart attack Action: Immediate medical attention required. Call for a cardiac team.\nExample 2: Symptoms: Mild fever, sore throat, fatigue Assessment: Non-urgent Reason: Symptoms suggest a common cold or mild flu Action: Rest at home, monitor symptoms, seek medical attention if condition worsens.\nAssess the following patient:\nSymptoms: [Insert patient’s symptoms here]"
+  },
+  {
+    "objectID": "slides/prompting/index.html#specify-output-format",
+    "href": "slides/prompting/index.html#specify-output-format",
+    "title": "Prompt Engineering: Basics",
+    "section": "Specify Output Format",
+    "text": "Specify Output Format\nFor example:\n\na Markdown table\nWord or Excel document\nCSV file\nStructured list\n\n\n\n\n\n\n\nExample Prompt\n\n\nBased on the patient’s symptoms, create a triage assessment. Present your findings in a Markdown table with the following columns:\n\nSeverity\nPrimary Concern\nSymptoms\nRecommended Action\n\nUse one of three severity levels: Emergency, Urgent, or Non-urgent.\nThe patient has the following symptoms: [Insert symptoms here]"
+  },
+  {
+    "objectID": "slides/prompting/index.html#structure-input-using-markdown",
+    "href": "slides/prompting/index.html#structure-input-using-markdown",
+    "title": "Prompt Engineering: Basics",
+    "section": "Structure Input Using Markdown",
+    "text": "Structure Input Using Markdown\nTechnique: Organize input information in a structured format using Markdown.\n\n\n\n\n\n\nExample Prompt\n\n\nBased on the patient's symptoms, create a triage assessment.\n\n# Patient Triage Information\n\n## Patient Details\n\n- **Name**: John Doe\n- **Age**: 45\n- **Gender**: Male\n- **Medical History**: No known pre-existing conditions\n- \n## Current Symptoms\n1. Chest pain (severity: 8/10)\n2. Shortness of breath\n3. Left arm numbness"
+  },
+  {
+    "objectID": "slides/prompting/index.html#ask-an-llm",
+    "href": "slides/prompting/index.html#ask-an-llm",
+    "title": "Prompt Engineering: Basics",
+    "section": "Ask an LLM",
+    "text": "Ask an LLM\nLLMs have been trained on a lot of data, including prompting techniques1.\n\n\n\n\n\n\nExample Prompt\n\n\nAs a language model, how would you proceed when given the following prompt: ““” You are an ER nurse with 15+ years of triage experience.\nYour tasks: 1. Assess patients quickly based on symptoms and medical history 2. Categorize conditions by severity 3. Recommend next steps for treatment 4. You are calm under pressure and efficient in prioritizing cases. ““”\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\nHow would you improve this prompt?\n\n\n\nIt is debated whether LLMs are particularly suited to writing prompting techniques."
+  },
+  {
+    "objectID": "slides/prompting/index.html#generate-python-code",
+    "href": "slides/prompting/index.html#generate-python-code",
+    "title": "Prompt Engineering: Basics",
+    "section": "Generate Python code",
+    "text": "Generate Python code\nTechnique: ask an LLM to generate Python code, or in the case of ChatGPT to “use Python”\n\n\n\n\n\n\nExample Prompt\n\n\n[Insert query here…]\nUse Python."
+  },
+  {
+    "objectID": "slides/prompting/index.html#references",
+    "href": "slides/prompting/index.html#references",
+    "title": "Prompt Engineering: Basics",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "workshop/presentation/index.html",
+    "href": "workshop/presentation/index.html",
+    "title": "Input: KI erste Schritte, Datenschutz",
+    "section": "",
+    "text": "View slides in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Input: KI erste Schritte, Datenschutz"
+    ]
+  },
+  {
+    "objectID": "workshop/prompting/index.html",
+    "href": "workshop/prompting/index.html",
+    "title": "Input: Prompting",
+    "section": "",
+    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Input: Prompting"
     ]
   }
 ]

@@ -14,7 +14,7 @@
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Andrew Ellis">
-  <title>Fokus Administration HKB – Prompt Engineering: Intermediate Techniques</title>
+  <title>Fokus Administration HKB – Prompt Engineering: Basics</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,76 +32,10 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
-      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -225,59 +159,26 @@
     }
   </style>
   <style>
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
+  div.callout-timing.callout {
+    border-left-color: red;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
+  div.callout-timing.callout-style-default > .callout-header {
+    background-color: rgb(from red r g b / 13%);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
+    content: '⏱️';
     background-image: none;
   }
-  div.callout-screens-down.callout {
-    border-left-color: orange;
+  div.callout-setup.callout {
+    border-left-color: gray;
   }
-  div.callout-screens-down.callout-style-default > .callout-header {
-    background-color: rgb(from orange r g b / 13%);
+  div.callout-setup.callout-style-default > .callout-header {
+    background-color: rgb(from gray r g b / 13%);
   }
-  div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
-    content: '🔽';
-    background-image: none;
-  }
-  div.callout-screens-up.callout {
-    border-left-color: green;
-  }
-  div.callout-screens-up.callout-style-default > .callout-header {
-    background-color: rgb(from green r g b / 13%);
-  }
-  div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
-    content: '🔼';
-    background-image: none;
-  }
-  div.callout-break.callout {
-    border-left-color: yellow;
-  }
-  div.callout-break.callout-style-default > .callout-header {
-    background-color: rgb(from yellow r g b / 13%);
-  }
-  div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
-    content: '☕';
-    background-image: none;
-  }
-  div.callout-caution.callout {
-    border-left-color: orange;
-  }
-  div.callout-caution.callout-style-default > .callout-header {
-    background-color: rgb(from orange r g b / 13%);
-  }
-  div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
-    content: '⚠️';
+  div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
+    content: '⚙️';
     background-image: none;
   }
   div.callout-individual.callout {
@@ -291,15 +192,147 @@
     content: '💻';
     background-image: none;
   }
-  div.callout-setup.callout {
-    border-left-color: gray;
+  div.callout-screens-up.callout {
+    border-left-color: green;
   }
-  div.callout-setup.callout-style-default > .callout-header {
-    background-color: rgb(from gray r g b / 13%);
+  div.callout-screens-up.callout-style-default > .callout-header {
+    background-color: rgb(from green r g b / 13%);
   }
-  div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
-    content: '⚙️';
+  div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
+    content: '🔼';
+    background-image: none;
+  }
+  div.callout-schedule.callout {
+    border-left-color: steelblue;
+  }
+  div.callout-schedule.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
+  }
+  div.callout-schedule .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-schedule.callout-style-default .callout-icon::before, div.callout-schedule.callout-titled .callout-icon::before {
+    content: '⏰︎';
+    background-image: none;
+  }
+  div.callout-screens-down.callout {
+    border-left-color: orange;
+  }
+  div.callout-screens-down.callout-style-default > .callout-header {
+    background-color: rgb(from orange r g b / 13%);
+  }
+  div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
+    content: '🔽';
+    background-image: none;
+  }
+  div.callout-feedback.callout {
+    border-left-color: teal;
+  }
+  div.callout-feedback.callout-style-default > .callout-header {
+    background-color: rgb(from teal r g b / 13%);
+  }
+  div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
+  div.callout-prompt-template.callout {
+    border-left-color: indigo;
+  }
+  div.callout-prompt-template.callout-style-default > .callout-header {
+    background-color: rgb(from indigo r g b / 13%);
+  }
+  div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
+    content: '📋';
+    background-image: none;
+  }
+  div.callout-reflect.callout {
+    border-left-color: purple;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
+  div.callout-output-example.callout {
+    border-left-color: darkgreen;
+  }
+  div.callout-output-example.callout-style-default > .callout-header {
+    background-color: rgb(from darkgreen r g b / 13%);
+  }
+  div.callout-output-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-output-example.callout-style-default .callout-icon::before, div.callout-output-example.callout-titled .callout-icon::before {
+    content: '📄';
+    background-image: none;
+  }
+  div.callout-export.callout {
+    border-left-color: brown;
+  }
+  div.callout-export.callout-style-default > .callout-header {
+    background-color: rgb(from brown r g b / 13%);
+  }
+  div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
+    content: '📤';
+    background-image: none;
+  }
+  div.callout-group.callout {
+    border-left-color: purple;
+  }
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-caution.callout {
+    border-left-color: orange;
+  }
+  div.callout-caution.callout-style-default > .callout-header {
+    background-color: rgb(from orange r g b / 13%);
+  }
+  div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
+    content: '⚠️';
+    background-image: none;
+  }
+  div.callout-checkpoint.callout {
+    border-left-color: purple;
+  }
+  div.callout-checkpoint.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
+    content: '🎯';
+    background-image: none;
+  }
+  div.callout-break.callout {
+    border-left-color: yellow;
+  }
+  div.callout-break.callout-style-default > .callout-header {
+    background-color: rgb(from yellow r g b / 13%);
+  }
+  div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
+    content: '☕';
+    background-image: none;
+  }
+  div.callout-try.callout {
+    border-left-color: blue;
+  }
+  div.callout-try.callout-style-default > .callout-header {
+    background-color: rgb(from blue r g b / 13%);
+  }
+  div.callout-try .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-try.callout-style-default .callout-icon::before, div.callout-try.callout-titled .callout-icon::before {
+    content: '🔄';
     background-image: none;
   }
   div.callout-prompt-example.callout {
@@ -324,26 +357,15 @@
     content: '🧪';
     background-image: none;
   }
-  div.callout-schedule.callout {
-    border-left-color: steelblue;
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
   }
-  div.callout-schedule.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
   }
-  div.callout-schedule .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-schedule.callout-style-default .callout-icon::before, div.callout-schedule.callout-titled .callout-icon::before {
-    content: '⏰︎';
-    background-image: none;
-  }
-  div.callout-output-example.callout {
-    border-left-color: darkgreen;
-  }
-  div.callout-output-example.callout-style-default > .callout-header {
-    background-color: rgb(from darkgreen r g b / 13%);
-  }
-  div.callout-output-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-output-example.callout-style-default .callout-icon::before, div.callout-output-example.callout-titled .callout-icon::before {
-    content: '📄';
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
   div.callout-tip.callout {
@@ -357,96 +379,8 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-feedback.callout {
-    border-left-color: teal;
-  }
-  div.callout-feedback.callout-style-default > .callout-header {
-    background-color: rgb(from teal r g b / 13%);
-  }
-  div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
-  div.callout-group.callout {
-    border-left-color: purple;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-export.callout {
-    border-left-color: brown;
-  }
-  div.callout-export.callout-style-default > .callout-header {
-    background-color: rgb(from brown r g b / 13%);
-  }
-  div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
-    content: '📤';
-    background-image: none;
-  }
-  div.callout-try.callout {
-    border-left-color: blue;
-  }
-  div.callout-try.callout-style-default > .callout-header {
-    background-color: rgb(from blue r g b / 13%);
-  }
-  div.callout-try .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-try.callout-style-default .callout-icon::before, div.callout-try.callout-titled .callout-icon::before {
-    content: '🔄';
-    background-image: none;
-  }
-  div.callout-prompt-template.callout {
-    border-left-color: indigo;
-  }
-  div.callout-prompt-template.callout-style-default > .callout-header {
-    background-color: rgb(from indigo r g b / 13%);
-  }
-  div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
-    content: '📋';
-    background-image: none;
-  }
-  div.callout-checkpoint.callout {
-    border-left-color: purple;
-  }
-  div.callout-checkpoint.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
-    content: '🎯';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: purple;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
-  div.callout-timing.callout {
-    border-left-color: red;
-  }
-  div.callout-timing.callout-style-default > .callout-header {
-    background-color: rgb(from red r g b / 13%);
-  }
-  div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
-    content: '⏱️';
-    background-image: none;
-  }
   </style>
-<meta property="og:title" content="Prompt Engineering: Intermediate Techniques – Fokus Administration HKB">
+<meta property="og:title" content="Prompt Engineering: Basics – Fokus Administration HKB">
 <meta property="og:site_name" content="Fokus Administration HKB">
 </head>
 <body class="quarto-light">
@@ -454,7 +388,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-opacity="1" class="quarto-title-block center">
-  <h1 class="title">Prompt Engineering: Intermediate Techniques</h1>
+  <h1 class="title">Prompt Engineering: Basics</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -466,58 +400,173 @@ Andrew Ellis
 
   <p class="date">Invalid Date</p>
 </section>
-<section id="chain-of-thought-cot-prompting" class="slide level2">
-<h2>Chain of Thought (CoT) prompting</h2>
-<p><strong>Techniques:</strong> Encourage the model to proceed in a step-by-step manner. This has the effect of making the desired output more probable. The output looks like the LLM is showing its reasoning process<sup>1</sup>.</p>
-<div class="callout callout-prompt-example callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Example Prompt</strong></p>
-</div>
-<div class="callout-content">
-<p>Think through this step-by-step: 1) List the symptoms 2) Consider possible causes 3) Evaluate urgency 4) Recommend action</p>
-</div>
-</div>
-</div>
-<p>Often it can be sufficient to just ask the model to think step-by-step.</p>
-<div class="callout callout-prompt-example callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Example Prompt</strong></p>
-</div>
-<div class="callout-content">
-<p>Think step-by-step.</p>
-</div>
-</div>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>This behaviour has been trained into recent models.</p></li></ol></aside></section>
-<section id="why-chain-of-thought" class="slide level2">
-<h2>Why Chain of Thought?</h2>
+<section id="understand-llms-through-hands-on-experience" class="slide level2">
+<h2>Understand LLMs through Hands-On Experience</h2>
 <ul>
-<li>Amount of computation is constant per token.</li>
-<li>By forcing the LLM to generate more (useful) tokens, it will therefore generate more (useful) content.</li>
-<li>This in turn narrows the space of possible outputs, and steers the model towards regions of the output space that are more desirable.</li>
+<li>Dedicate time to actively using large language models (LLMs).</li>
+<li>Utilize LLMs for tasks related to your work or personal interests.</li>
+<li>Explore their abilities by posing diverse and unique prompts.</li>
+<li>Observe where LLMs work well and where they don’t.</li>
 </ul>
 </section>
-<section id="drawbacks-of-chain-of-thought" class="slide level2">
-<h2>Drawbacks of Chain of Thought</h2>
+<section id="a-useful-metaphor" class="slide level2">
+<h2>A useful metaphor</h2>
+<p>Imagine you are giving instructions to a junior intern or assistant.</p>
+</section>
+<section id="zero-shot-prompting" class="slide level2">
+<h2>Zero-Shot Prompting</h2>
+<p><strong>Definition</strong>: Asking the model to perform a task without providing examples.</p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>Translate the following English text to French: ’Hello, how are you?</p>
+</div>
+</div>
+</div>
+</section>
+<section id="role-assignment" class="slide level2">
+<h2>Role assignment</h2>
+<p><strong>Technique</strong>: Define a specific role for the AI to adopt.</p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>You are an expert historian. Explain the causes of World War I.</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>You are an 8-year-old child. Explain the causes of World War I.</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>You are an experienced emergency room nurse with over 15 years of experience in patient triage. Your role is to perform initial assessments of patients based on their reported symptoms and medical history. You have a calm demeanor and the ability to quickly prioritize cases based on severity. In this role, you will categorize patients’ conditions and recommend appropriate next steps.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="clear-communication" class="slide level2">
+<h2>Clear communication</h2>
+<p><strong>Technique:</strong> Use precise language and specific instructions</p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>You are an ER nurse with 15+ years of triage experience.</p>
+<p>Your tasks: - Assess patients quickly based on symptoms and medical - Categorize conditions by severity - Recommend next steps for treatment</p>
+<p>You are calm under pressure and efficient in prioritizing cases.</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>List five benefits of regular exercise, each in a separate bullet point.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="emotion-prompting" class="slide level2">
+<h2>Emotion prompting</h2>
+<p><strong>Technique</strong>: Incorporate emotional language to potentially improve accuracy and response quality<sup>1</sup>.</p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>I’m really excited to learn about this! Can you enthusiastically explain how photosynthesis works?</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>Rate this essay according to [these criteria]. You will receive a bonus if you do a good job.</p>
+</div>
+</div>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Emotion prompting’s effectiveness in improving language model responses is debated. Some argue it could enhance naturalness, while others suggest minimal or inconsistent impact across tasks and models. More research is needed.</p></li></ol></aside></section>
+<section id="provide-context" class="slide level2">
+<h2>Provide context</h2>
+<p><strong>Technique</strong>: Give relevant background information</p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>Context: You are working in a busy urban hospital emergency room during flu season. It’s currently 2 AM on a Saturday, and the waiting room is full. The hospital has been dealing with a recent outbreak of a new strain of influenza in the community.</p>
+<p>Patient Information:</p>
 <ul>
-<li>LLM performance on reasoning problems does not generalize well</li>
-<li>Chain of thought prompting aims to mitigate this by <em>demonstrating solution procedures</em></li>
-<li><span class="citation" data-cites="stechlyChainThoughtlessnessAnalysis2024">Stechly, Valmeekam, and Kambhampati (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span> found meaningful performance improvements only with <em>highly problem-specific prompts</em>.</li>
+<li>45-year-old male</li>
+<li>No known pre-existing conditions</li>
+<li>Not on any regular medications</li>
+<li>Last flu shot was 2 years ago</li>
+<li>Given this context and patient information, assess the following reported symptoms: [Insert symptoms here]</li>
 </ul>
+</div>
+</div>
+</div>
 </section>
-<section id="few-shot-learning" class="slide level2">
-<h2>Few-Shot Learning</h2>
-<p><strong>Technique:</strong> Provide multiple examples before asking for a new output.</p>
-<p>The way that we structure Few-Shot Prompts is very important. By this, we mean do we separate the inputs and outputs with a colon (:) or the words INPUT/OUTPUT. We have seen examples of both earlier in this article. How can you decide? We generally use the input: output format and occasionally use the QA format, which is commonly used in research papers.</p>
-<p>Use 2-5 examples for simple tasks. Use often ~10 examples for harder tasks</p>
+<section id="use-examples" class="slide level2">
+<h2>Use examples</h2>
+<p>This is known as <strong>few-shot prompting</strong>. <br> <br> <strong>Technique</strong>: Illustrate desired output with examples.</p>
 <div class="callout callout-prompt-example callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -527,118 +576,91 @@ Andrew Ellis
 <p><strong>Example Prompt</strong></p>
 </div>
 <div class="callout-content">
-<p>Input: “Great product, 10/10”</p>
-<p>Ouput: “Great product, 10/10”: {“label”: “positive”}</p>
-<p><br> Input: “Didn’t work very well”</p>
-<p>Output: “Didn’t work very well”: {“label”: “negative”}</p>
-<p><br> Input: “Super helpful, worth it”</p>
-<p>Output: “Super helpful, worth it”: {“label”: “positive”}</p>
-<p><br> Input: “I’m not sure I would buy this again”</p>
-<p>Output:</p>
+<p>Perform a triage assessment based on the patient’s symptoms. Format your response similar to the following examples:</p>
+<p><strong>Example 1:</strong> Symptoms: Chest pain, shortness of breath, left arm numbness Assessment: Emergency Reason: Symptoms strongly indicate a possible heart attack Action: Immediate medical attention required. Call for a cardiac team.</p>
+<p><strong>Example 2:</strong> Symptoms: Mild fever, sore throat, fatigue Assessment: Non-urgent Reason: Symptoms suggest a common cold or mild flu Action: Rest at home, monitor symptoms, seek medical attention if condition worsens.</p>
+<p>Assess the following patient:</p>
+<p>Symptoms: [Insert patient’s symptoms here]</p>
 </div>
 </div>
 </div>
 </section>
-<section id="structured-output" class="slide level2">
-<h2>Structured Output</h2>
-<p><strong>Technique:</strong> Specify a structure for the model’s response.</p>
-<div class="callout callout-prompt-example callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Example Prompt</strong></p>
-</div>
-<div class="callout-content">
-<p>Provide your assessment in JSON format:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource json number-lines code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a></a><span class="fu">{</span></span>
-<span id="cb1-2"><a></a>  <span class="dt">"severity"</span><span class="fu">:</span> <span class="st">"[Emergency/Urgent/Non-urgent]"</span><span class="fu">,</span></span>
-<span id="cb1-3"><a></a>  <span class="dt">"potential_causes"</span><span class="fu">:</span> <span class="st">"[List top 3]"</span><span class="fu">,</span></span>
-<span id="cb1-4"><a></a>  <span class="dt">"recommended_action"</span><span class="fu">:</span> <span class="st">"[Specific next steps]"</span></span>
-<span id="cb1-5"><a></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="self-consistency" class="slide level2">
-<h2>Self-Consistency</h2>
-<p>LLMs are prone to variability in their responses.</p>
-<p><strong>Technique:</strong> Generate multiple answers, aggregate the responses and select the majority result.</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Do this several times:</p>
-<div class="callout callout-prompt-example callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Example Prompt</strong></p>
-</div>
-<div class="callout-content">
-<p>Provide three independent assessments for these symptoms.</p>
-<p>Think step-by-step.</p>
-<p>Symptoms: [insert symptoms here]</p>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p>Provide the responses to an LLM in a new session:</p>
-<div class="callout callout-prompt-example callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Example Prompt</strong></p>
-</div>
-<div class="callout-content">
-<p>Analyze whether the following assessments agree with each other. Give me your expert assessment based on the assessments you received.</p>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="bonus-tip-keep-up-with-prompt-engineering-research" class="slide level2">
-<h2>Bonus tip: keep up with prompt engineering research</h2>
-<p><strong>Technique:</strong> Use LLMs to “read” new research papers.</p>
-<div class="callout callout-prompt-example callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Example Prompt</strong></p>
-</div>
-<div class="callout-content">
-<p>Based on the attached research paper on [prompt engineering technique], write a prompt that would cause an LLM to behave according to the techniques described in this paper. Use [topic] as an example.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="problems-with-prompt-engineering" class="slide level2">
-<h2>Problems with prompt engineering</h2>
+<section id="specify-output-format" class="slide level2">
+<h2>Specify Output Format</h2>
+<p>For example:</p>
 <ul>
-<li>“Positive thinking” prompts have inconsistent effects across models.</li>
-<li>Chain of Thought (CoT) prompting generally improves performance, but prompts are task-specific.</li>
-<li>No universal “best prompt” — effectiveness varies by model and task.</li>
-<li>Automatically optimized prompts often outperform manually crafted ones.</li>
-<li>Optimized prompts can be surprisingly unconventional or eccentric.</li>
+<li>a Markdown table</li>
+<li>Word or Excel document</li>
+<li>CSV file</li>
+<li>Structured list</li>
 </ul>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>Based on the patient’s symptoms, create a triage assessment. Present your findings in a Markdown table with the following columns:</p>
+<ul>
+<li>Severity</li>
+<li>Primary Concern</li>
+<li>Symptoms</li>
+<li>Recommended Action</li>
+</ul>
+<p>Use one of three severity levels: Emergency, Urgent, or Non-urgent.</p>
+<p>The patient has the following symptoms: [Insert symptoms here]</p>
+</div>
+</div>
+</div>
 </section>
-<section id="prompt-optimization" class="slide level2">
-<h2>Prompt optimization</h2>
+<section id="structure-input-using-markdown" class="slide level2">
+<h2>Structure Input Using Markdown</h2>
+<p>Technique: Organize input information in a structured format using <a href="https://www.markdownguide.org/">Markdown</a>.</p>
 <div class="callout callout-prompt-example callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Positive thinking</strong></p>
+<p><strong>Example Prompt</strong></p>
 </div>
 <div class="callout-content">
-<p>You are an experienced emergency room nurse. Take a deep breath and carefully assess the following patient’s symptoms.</p>
+<pre><code>Based on the patient's symptoms, create a triage assessment.
+
+# Patient Triage Information
+
+## Patient Details
+
+- **Name**: John Doe
+- **Age**: 45
+- **Gender**: Male
+- **Medical History**: No known pre-existing conditions
+- 
+## Current Symptoms
+1. Chest pain (severity: 8/10)
+2. Shortness of breath
+3. Left arm numbness</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="ask-an-llm" class="slide level2">
+<h2>Ask an LLM</h2>
+<p>LLMs have been trained on a lot of data, including prompting techniques<sup>1</sup>.</p>
+<div class="callout callout-prompt-example callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example Prompt</strong></p>
+</div>
+<div class="callout-content">
+<p>As a language model, how would you proceed when given the following prompt: ““” You are an ER nurse with 15+ years of triage experience.</p>
+<p>Your tasks: 1. Assess patients quickly based on symptoms and medical history 2. Categorize conditions by severity 3. Recommend next steps for treatment 4. You are calm under pressure and efficient in prioritizing cases. ““”</p>
 </div>
 </div>
 </div>
@@ -648,38 +670,37 @@ Andrew Ellis
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Chain of Thought</strong></p>
+<p><strong>Example Prompt</strong></p>
 </div>
 <div class="callout-content">
-<p>Think through this patient’s case step-by-step: 1) List the symptoms, 2) Consider possible causes, 3) Evaluate urgency, 4) Recommend action.</p>
+<p>How would you improve this prompt?</p>
 </div>
 </div>
 </div>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>It is debated whether LLMs are particularly suited to writing prompting techniques.</p></li></ol></aside></section>
+<section id="generate-python-code" class="slide level2">
+<h2>Generate Python code</h2>
+<p><strong>Technique</strong>: ask an LLM to generate Python code, or in the case of ChatGPT to “use Python”</p>
 <div class="callout callout-prompt-example callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Optimized prompt</strong></p>
+<p><strong>Example Prompt</strong></p>
 </div>
 <div class="callout-content">
-<p>The ER is in chaos, Doctor. We need your expertise to navigate this storm of patients and identify the most critical cases.</p>
+<p>[Insert query here…]</p>
+<p>Use Python.</p>
 </div>
 </div>
 </div>
-<p>see <span class="citation" data-cites="battleUnreasonableEffectivenessEccentric2024b">Battle and Gollapudi (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></p>
 <!-- ## Questions / Discussion  -->
 </section>
 <section id="references" class="slide level2 smaller scrollable" data-background-color="#D8DEE9">
 <h2>References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-battleUnreasonableEffectivenessEccentric2024b" class="csl-entry" role="listitem">
-Battle, Rick, and Teja Gollapudi. 2024. <span>“The <span>Unreasonable Effectiveness</span> of <span>Eccentric Automatic Prompts</span>.”</span> February 20, 2024. <a href="https://doi.org/10.48550/arXiv.2402.10949">https://doi.org/10.48550/arXiv.2402.10949</a>.
-</div>
-<div id="ref-stechlyChainThoughtlessnessAnalysis2024" class="csl-entry" role="listitem">
-Stechly, Kaya, Karthik Valmeekam, and Subbarao Kambhampati. 2024. <span>“Chain of <span>Thoughtlessness</span>? <span>An Analysis</span> of <span>CoT</span> in <span>Planning</span>.”</span> arXiv.org. May 8, 2024. <a href="https://arxiv.org/abs/2405.04776v2">https://arxiv.org/abs/2405.04776v2</a>.
-</div>
+<div id="refs" role="list">
+
 </div>
 
 
