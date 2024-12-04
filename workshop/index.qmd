@@ -7,7 +7,7 @@ title: "Inhalt"
 Workshop-Program auf einen Blick:
 
 
-| {{< bi clock >}} | {{< bi body-text >}} Inhalt | {{< bi person-fill >}} |
+| {{< bi clock >}} | {{< bi book >}} Inhalt | {{< bi person-fill >}} |
 |-----------------|-------------------------------------------------------------------------|-----------------------|
 | 13:30 – 13:45 | Begrüssung und Input zu Notebook LM | Nina |
 | 13:45 – 14:35 | Input: KI erste Schritte, Datenschutz | Andrew |
