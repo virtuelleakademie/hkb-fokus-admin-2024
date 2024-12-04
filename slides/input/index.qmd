@@ -22,22 +22,43 @@ titel: "Input: KI in der Hochschulverwaltung"
     - Vorhersage von Proteinfaltungen
     - Erstellung von Musik/Bildern/Texten
 
+## Large Language Models (LMMs)
+
+:::: {.columns}
+::: {.column width="50%"}
+Maschinelles Lernen: 
+
+Modelle, die ohne explizite Programmierung Muster aus Daten erlernen, um Vorhersagen oder Entscheidungen zu treffen.
+![](../../assets/images/what-is-AI.svg){width=80%}
+
+
+:::
+::: {.column width="50%"}
+Large Language Model:
+
+Ein maschinelles Lernmodell, das darauf trainiert wird, das nächste Wort nach einem Eingabetext (Prompt) vorherzusagen.
+
+![](../../assets/images/LLM.svg)
+
+:::
+::::
+
 
 
 ## KI verrichtet geistige Arbeit
 
-- **Kognitive Arbeit und KI**: KI hat das Potential zu verändern, wie *geistige*Arbeit verrichtet wird.
+- **Kognitive Arbeit und KI**: KI hat das Potential zu verändern, wie *geistige* Arbeit verrichtet wird.
 
 - **Wichtige Erkenntnisse aus der Forschung**:
   - @dellacquaNavigatingJaggedTechnological2023 erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.
   - @toner-rodgersArtificialIntelligenceScientific diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.
   - @cuiEffectsGenerativeAI2024a analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.
 
-- **Anwendungen**:
-  - Automatisierung von routinemässigen kognitiven Aufgaben
-  - Unterstützung kreativer Bestrebungen
+- **Erkenntnisse**:
+  - Automatisierung von routinemässigen kognitiven Aufgaben ist möglich
+  - Unterstützung kreativer Arbeit ist möglich
   - Deskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren
-  - Ohne Training: KI-Tools werden für ungeeignete Aufgaben eingesetzt
+  - Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt
 
 
 <!-- [@dellacquaNavigatingJaggedTechnological2023; @toner-rodgersArtificialIntelligenceScientific; @cuiEffectsGenerativeAI2024a] -->
@@ -65,7 +86,24 @@ Bildquelle: Erstellt mit DALL-E 3
 
 ## Wie sieht das für die kognitive Arbeit aus?
 
+:::: {.columns}
+::: {.column width="50%"}
+**1960**
 
+![](../../assets/images/human-cognitive-work.png)
+  
+:::
+::: {.column width="50%"}
+**2030**
+![](../../assets/images/human-ai-fusion.png)
+
+<!-- {{< bi question-circle >}} -->
+:::
+::::
+
+:::{.attribution}
+Bildquelle: Erstellt mit DALL-E 3
+:::
 
 ## Ankunftstechnologien
 
@@ -73,7 +111,7 @@ Bildquelle: Erstellt mit DALL-E 3
 ::: {.column width="50%"}
 Hochschulen stehen vor Herausforderungen mit Technologien wie ChatGPT, weil sie:
 
-- Traditionelle Technologieevaluierungsprozesse umgehen
+- Traditionelle Technologie-Evaluierungsprozesse umgehen
 - Durch **spontane Adoption** eingeführt werden
 - Reaktive statt proaktive Richtlinien erfordern
 :::
@@ -89,7 +127,7 @@ Bildquelle: Erstellt mit DALL-E 3 ("ChatGPT arriving at a university in the styl
 :::
 
 
-## Traditionelle vs. Ankunftstechnologien
+## Adoptions- vs. Ankunftstechnologien
 
 [@reichNewTheoryArrival2024]
 
@@ -103,9 +141,10 @@ Bildquelle: Erstellt mit DALL-E 3 ("ChatGPT arriving at a university in the styl
 - Klare Zeitpläne
 - Etablierte Richtlinien
 
-- **Beispiele**:
-  - Learning Management Systems
-  - Smart boards
+:::{.callout-note appearance="minimal"}
+## Beispiele
+Learning Management Systems, Smart boards
+:::
 
 :::
 
@@ -119,13 +158,14 @@ Bildquelle: Erstellt mit DALL-E 3 ("ChatGPT arriving at a university in the styl
 - Reaktive Richtlinien
 - Informelle Schulung
 
-- **Beispiele**:
-  - Smartphones
-  - Wikipedia
-  - Social Media
-  - ChatGPT
+:::{.callout-note appearance="minimal"}
+## Beispiele 
+Smartphone {{< bi phone >}}, Wikipedia {{< bi wikipedia >}} , YouTube {{< bi youtube >}}, TikTok {{< bi tiktok >}}
 :::
+:::
+
 ::::
+
 
 
 
@@ -147,33 +187,167 @@ Bildquelle: Erstellt mit DALL-E 3 ("ChatGPT arriving at a university in the styl
    - Plattform-Updates
 
 
-## Understanding LLMs
 
-- Pattern matching systems trained on text data
-- Statistical models predicting likely next words
-- Not intelligent systems
-- Sophisticated imitation engines
+## Was sind LLMs? 
 
-## How LLMs Work
+::: {.r-fit-text}
+Es ist wichtig, die angekommene Technologie zu **entmystifizieren**, um sie richtig einordnen zu können:
 
-### Core Mechanism: Conditional Text Generation
+- LLMs sind statistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.
+- Diese Vorhersage geschieht **Wort für Wort**.
+- Jede Vorhersage basiert auf 
+  + der Eingabe (Prompt)
+  + den zuvor generierten Wörtern
+  + der internen Struktur des Modells
 
-1. Takes input as context
-2. Predicts likely next word
-3. Uses new context
-4. Continues prediction process
-5. Generates complete response
+::: {.hidden}
+$$
+\newcommand{\purple}[1]{\color{purple}{#1}}
+\newcommand{\red}[1]{\color{red}{#1}}
+\newcommand{\blue}[1]{\color{blue}{#1}}
+$$
+:::
 
-## Verification Methods
+$$\purple{P(\text{Wort}_{i+1}} \mid \blue{\text{Kontext}}, \red{\text{Modell}})$$
 
-- Cross-reference with authoritative sources
-- Check internal consistency
-- Look for outdated information
-- Watch for AI indicators:
-  - Overly confident tone
-  - Generic examples
-  - Repetitive patterns
-  - Unnatural language
+<!-- $$P(x_{i+1} \mid \text{Context}, \text{Model})$$ -->
+
+
+Das $\purple{\text{nächste Wort}}$ wird vorhergesagt, in Abhängigkeit von $\blue{\text{Inputsequenz}}$ und $\red{\text{Modell}}$.
+
+
+
+:::
+
+
+## Was sind LLMs?
+
+:::: {.columns}
+::: {.column width="50%"}
+Ein LLM kann man sich wie ein ausgefeilter Autocomplete-Mechanismus vorstellen.
+:::
+::: {.column width="50%"}
+![](../../assets/images/predictive-text.png)
+:::
+::::
+
+:::{.attribution}
+Bildquelle: [www.apple.com](https://www.apple.com)
+:::
+
+
+## Wie generieren LLMs Text?
+
+<br> <br>
+
+![](../../assets/images/wort-fuer-wort.png)
+
+
+## Wie können LLMs Text vorhersagen?
+
+Sie werden trainiert, das nächste Wort in einer gegebenen Wortsequenz zu erraten.
+
+:::: {.columns}
+::: {.column width="50%"}
+Ein LLM wird in drei Schritten aufgebaut:
+
+1. Sammeln eines grossen Text-Korpus.
+2. Basierend auf diesem Text, muss das Modell das nächste Wort in einer gegebenen Wortsequenz vorherzusagen lernen.
+3. Das Sprachmodell wird feiner abgestimmt, um das gewünschte Verhalten zu erreichen.
+
+:::
+::: {.column width="50%"}
+![](../../assets/images/LLM-Bookshelf.png)
+:::
+::::
+
+
+## Wie werden LLMs trainiert?
+
+![](../../assets/images/llm-training.png)
+
+
+## Gefahren und Herausforderungen
+
+:::: {.columns}
+::: {.column width="50%"}
+Die verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken verbunden:
+
+- **Urheberrecht**: Die trainierten Modelle werden mit Texten trainiert, die möglicherweise Urheberrechtlich geschützt sind.
+- **Bias**: Die trainierten Modelle können bestehende Vorurteile aus den Trainingsdaten lernen.
+- **Energieverbrauch**: Das Training der Modelle verbraucht viel Energie und ist damit umweltbelastend.
+
+:::
+::: {.column width="50%"}
+![](../../assets/images/Pothole.png)
+:::
+::::
+
+## Gefahren und Herausforderungen
+
+:::: {.columns}
+::: {.column width="50%"}
+- Obschon sich LLMs viel Wissen aneignen[^1], werden sie nicht trainiert, faktisch korrekte Aussagen zu machen.
+- Dies bedeutet, dass wir alle Aussagen, die LLMs uns präsentieren, immer kritisch hinterfragen müssen.
+- LLMs sind **keine Wissensdatenbanken**. Informationen immer anhand externer Quellen überprüfen.
+:::
+::: {.column width="50%"}
+![](../../assets/images/KnowledgeBase.png)
+:::
+::::
+
+
+
+
+
+[^1]: Das ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen.
+
+
+
+## ChatGPT
+
+
+![](../../assets/images/chatgpt.png)
+
+
+
+## Fragen beantworten
+
+![](../../assets/images/fragen-beantworten.png)
+
+
+## Bilder analysieren
+
+![](../../assets/images/bilder-analysieren.png)
+
+## Dokumente zusammenfassen
+
+![](../../assets/images/dokumente-zusammenfassen.png)
+
+## Output strukturieren
+
+![](../../assets/images/output-strukturieren.png)
+
+## Websuche
+
+![](../../assets/images/websuche.png)
+
+## Datenanalyse
+
+![](../../assets/images/datenanalyse.png)
+
+
+## Custom GPTs
+
+![](../../assets/images/gpts.png)
+
+
+
+
+## Rechtliche Aspekte
+
+![](../../assets/images/rechtliche-aspekte.png)
+
 
 ## Critical Concerns
 
