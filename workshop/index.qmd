@@ -7,7 +7,22 @@
 Workshop-Program uf einen Blick:
 
 
-::: {.schedule title="Begrüssung und Input zu NotebookLM"}  
+| {{< bi clock >}} | {{< bi body-text >}} Inhalt | {{< bi person-fill >}} |
+|-----------------|-------------------------------------------------------------------------|-----------------------|
+| 13:30 – 13:45 | Begrüssung und Input zu Notebook LM | Nina |
+| 13:45 – 14:35 | Input: KI erste Schritte, Datenschutz | Andrew |
+| 14:35 – 14:55 | Austausch in Gruppen, visuell auf Flipchart | Dana |
+| 14:55 – 15:05 | Gruppen stellen Ergebnisse vor | {{< bi people-fill >}}  |
+| 14:05 – 15:20 | Pause | |
+| 15:20 – 15:35 | Input Prompting | Andrew |
+| 15:35 – 16:35 | Einführung zu Tools: Chat GPT, Copilot <br> Aufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think-Pair–Share | Raymond|
+| 16:35 – 16:50 | Präsentation der Ergebnisse | |
+| 16:50 – 17:00 | Austausch, Abschluss | |
+| Ab 17:00 | Apero mit VMAD-HKB im OG | |
+
+
+
+<!-- ::: {.schedule title="Begrüssung und Input zu NotebookLM"}  
 {{< bi clock >}} 13:30 – 13:45  
 (Nina 15’) 
 :::
@@ -53,40 +68,4 @@ Workshop-Program uf einen Blick:
 
 ::: {.screens-down title="Ab 17:00 Apero mit VMAD-HKB im OG"}
 {{< bi clock >}}  Ab 17:00
-:::
-
-
-
-<!-- 
-# Introduction and setup
-
-{{< bi alarm >}} 5 minutes
-
-## Verify Openai 
-
-{{< embed ../notebooks/verify-openai.ipynb#get-ai-response echo=true >}}
-
-{{< embed ../notebooks/verify-openai.ipynb#get-ai-response-2 echo=true >}}
-
-
-## Test structured output
-
-{{< embed ../notebooks/test-structured-output.ipynb#events echo=true >}}
-
-{{< embed ../notebooks/test-structured-output.ipynb#export-csv echo=true >}}
- -->
-
-
-<!-- ## Pyodide -->
-<!-- 
-```{pyodide-python}
-n = 5
-while n > 0:
-  print(n)
-  n = n - 1
-
-print('Blastoff!')
-``` -->
-
-
-<!-- # References -->
+::: -->
