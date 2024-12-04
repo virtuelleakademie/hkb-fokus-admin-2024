@@ -254,11 +254,17 @@ custom-callout:
   break:
     title: "Break Time"
     icon-symbol: "☕"
-    color: "brown"
+    color: "yellow"
     collapse: false
 
   checkpoint:
     title: "Checkpoint"
     icon-symbol: "🎯"
     color: "purple"
+    collapse: false
+
+  schedule:
+    title: "Schedule"
+    icon-symbol: "⏰︎"
+    color: "steelblue"
     collapse: false
