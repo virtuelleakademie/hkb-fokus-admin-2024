@@ -4,38 +4,56 @@
 
 
 
-The workshop is structured as follows:
-
-(@) Introduction
-(@) Setup coding environment
-    + setup Python 
-    + setup VSCode 
-    + install Github Copilot
-(@) Verify OpenAI installation
-(@) Using the OpenAI API
-(@) Project: Use GPT-4o to generate Anki flashcards
-(@) Conclusions and discussion
+Workshop-Program uf einen Blick:
 
 
-> 13:30 – 13:45  BegrüssungInput zu Notebook LM (Nina 15’) 
-> 
-> 13:45 – 14:35  Input: KI erste Schritte, Datenschutz (Andrew 50’) 
-> 
-> 14:35 – 14:55 Austausch in Gruppen, visuell auf Flipchart (Dana 20’) 1. Wo könnte mir KI helfen, wenn es zaubern könnte 2. Was habe ich für konkrete Aufgaben, die KI für mich lösen dürfte 
-> 
-> 14:55 – 15:05 >> Gruppen stellen Ergebnisse vor (alle 10’) 
-> 
-> 14:05 – 15:20 Pause (15’) 
-> 
-> 15:20 – 15:35 Input Prompting (Andrew 15’) 
-> 
-> 15:35 – 16:35 (Raymond 60’ total) Einführung zu Tools: Chat GPT, Copilot >> Aufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think - Pair – Share (Raymond, Andrew) 
-> 
-> 16:35 – 16:50 Präsentation der Ergebnisse (15’) 
-> 
-> 16:50 – 17:00 Austausch, Abschluss (10’) 
-> 
-> Ab 17:00 Apero mit VMAD-HKB im OG
+::: {.schedule title="Begrüssung und Input zu NotebookLM"}  
+{{< bi clock >}} 13:30 – 13:45  
+(Nina 15’) 
+:::
+
+::: {.schedule title="Input: KI erste Schritte, Datenschutz"}
+{{< bi clock >}} 13:45 – 14:35 (Andrew 50’) 
+:::
+
+::: {.schedule title="Austausch in Gruppen, visuell auf Flipchart"}
+{{< bi clock >}} 14:35 – 14:55 (Dana 20’) 
+
+1. Wo könnte mir KI helfen, wenn es zaubern könnte?
+2. Was habe ich für konkrete Aufgaben, die KI für mich lösen dürfte?
+:::
+
+::: {.schedule title="Gruppen stellen Ergebnisse vor"}
+{{< bi clock >}} 14:55 – 15:05 
+(alle 10’) 
+:::
+
+::: {.screens-down title="Pause"}
+{{< bi clock >}} 14:05 – 15:20 
+:::
+
+::: {.schedule title="Input Prompting"}
+{{< bi clock >}} 15:20 – 15:35 {{< bi person-fill >}} Andrew 15’
+:::
+
+::: {.schedule title="Einführung zu Tools: ChatGPT, Copilot"}
+{{< bi clock >}} 15:35 – 16:35 (Raymond 60’) 
+
+- Einführung zu Tools: ChatGPT, Copilot 
+- Aufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think - Pair – Share
+:::
+
+::: {.schedule title="Präsentation der Ergebnisse"}
+{{< bi clock >}} 16:35 – 16:50
+:::
+
+::: {.reflect title="Austausch, Abschluss"}
+{{< bi clock >}} 16:50 – 17:00
+:::
+
+::: {.screens-down title="Ab 17:00 Apero mit VMAD-HKB im OG"}
+{{< bi clock >}}  Ab 17:00
+:::
 
 
 
