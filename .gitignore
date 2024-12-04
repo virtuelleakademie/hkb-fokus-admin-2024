@@ -92,3 +92,6 @@ docs/slides/empty.html
 .vscode/
 config.yaml
 pages/config.yaml
+
+# assets
+/assets/ppt/*
