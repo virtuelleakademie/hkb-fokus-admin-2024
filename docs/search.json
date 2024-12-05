@@ -328,7 +328,7 @@
     "href": "slides/input/index.html#adoptions--vs.-ankunftstechnologien",
     "title": "KI: erste Schritte & rechtliche Aspekte",
     "section": "Adoptions- vs. Ankunftstechnologien",
-    "text": "Adoptions- vs. Ankunftstechnologien\n(Reich and Dukes 2024)\n\n\nTraditionelle Einführung\n\nSorgfältige Bewertung\nPilotversuche\nMitarbeiterschulung\nKlare Zeitpläne\nEtablierte Richtlinien\n\n\n\n\nBeispiele\n\n\nLearning Management Systems, Smart boards\n\n\n\n\nAnkunftstechnologien\n\nSpontane Nutzung\nUmgehung von Prozessen\nKeine Vorbereitung\nBenutzergeführte Einführung\nReaktive Richtlinien\nInformelle Schulung\n\n\n\n\nBeispiele\n\n\nSmartphone , Wikipedia  , YouTube , TikTok"
+    "text": "Adoptions- vs. Ankunftstechnologien\n(Reich and Dukes 2024)\n\n\nTraditionelle Einführung\n\nSorgfältige Bewertung\nPilotversuche\nMitarbeiterschulung\nKlare Zeitpläne\nEtablierte Richtlinien\n\n\n\n\nBeispiele\n\n\nLearning Management Systems, Smart boards\n\n\n\n\nAnkunftstechnologien\n\nSpontane Nutzung\nUmgehung von Prozessen\nKeine Vorbereitung\nBenutzergeführte Einführung\nReaktive Richtlinien\n\n\n\n\nBeispiele\n\n\nSmartphone, Wikipedia, YouTube, TikTok"
   },
   {
     "objectID": "slides/input/index.html#drei-möglichkeiten-der-ankunft",
@@ -342,7 +342,7 @@
     "href": "slides/input/index.html#was-sind-llms",
     "title": "KI: erste Schritte & rechtliche Aspekte",
     "section": "Was sind LLMs?",
-    "text": "Was sind LLMs?\n\nEs ist wichtig, die angekommene Technologie zu entmystifizieren, um sie richtig einordnen zu können:\n\nLLMs sind statistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.\nDiese Vorhersage geschieht Wort für Wort.\nJede Vorhersage basiert auf\n\nder Eingabe (Prompt)\nden zuvor generierten Wörtern\nder internen Struktur des Modells\n\n\n\n\\[\n\\newcommand{\\purple}[1]{\\color{purple}{#1}}\n\\newcommand{\\red}[1]{\\color{red}{#1}}\n\\newcommand{\\blue}[1]{\\color{blue}{#1}}\n\\]\n\n\\[\\purple{P(\\text{Wort}_{i+1}} \\mid \\blue{\\text{Kontext}}, \\red{\\text{Modell}})\\]\n\nDas \\(\\purple{\\text{nächste Wort}}\\) wird vorhergesagt, in Abhängigkeit von \\(\\blue{\\text{Inputsequenz}}\\) und \\(\\red{\\text{Modell}}\\)."
+    "text": "Was sind LLMs?\n\nUm die angekommene Technologie einordnen zu können, ist eine Entmystifizierung notwendig:\n\nLLMs sind statistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.\nDiese Vorhersage geschieht Wort für Wort.\nJede Vorhersage basiert auf\n\nder Eingabe (Prompt)\nden zuvor generierten Wörtern\nder internen Struktur des Modells\n\n\n\n\\[\n\\newcommand{\\purple}[1]{\\color{purple}{#1}}\n\\newcommand{\\red}[1]{\\color{red}{#1}}\n\\newcommand{\\blue}[1]{\\color{blue}{#1}}\n\\]\n\n\\[\\purple{P(\\text{Wort}_{i+1}} \\mid \\blue{\\text{Kontext}}, \\red{\\text{Modell}})\\]\n\nDas \\(\\purple{\\text{nächste Wort}}\\) wird vorhergesagt, in Abhängigkeit von \\(\\blue{\\text{Inputsequenz}}\\) und \\(\\red{\\text{Modell}}\\)."
   },
   {
     "objectID": "slides/input/index.html#was-sind-llms-1",
@@ -475,7 +475,7 @@
     "href": "slides/input/index.html#datenschutz",
     "title": "KI: erste Schritte & rechtliche Aspekte",
     "section": "Datenschutz",
-    "text": "Datenschutz\nDatenschutz allgemein bedeutet:\n\nsicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.\nTransparenz darüber, welche Daten erhoben und wie sie verwendet werden.\nsicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden\nRecht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch\nEinhaltung von Datenschutzgesetzen und -vorschriften\n\n\n\n\nLehrpersonen müssen Datenschutz immer beim Einsatz von (digitalen) Tools beachten.\n\n\n\nDatensicherheit bedeutet:\n\nDaten so zu speichern, dass sie nicht verloren gehen, nicht manipuliert werden können\ntechnische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten"
+    "text": "Datenschutz\nDatenschutz allgemein bedeutet:\n\nsicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.\nTransparenz darüber, welche Daten erhoben und wie sie verwendet werden.\nsicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden\nRecht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch\nEinhaltung von Datenschutzgesetzen und -vorschriften\n\n\n\n\nLehrpersonen müssen Datenschutz beim Einsatz von (digitalen) Tools immer beachten."
   },
   {
     "objectID": "slides/input/index.html#schutzmassnahmen",
@@ -720,6 +720,34 @@
     "href": "slides/input/index.html#vorhersage",
     "title": "KI: erste Schritte & rechtliche Aspekte",
     "section": "Vorhersage",
-    "text": "Vorhersage\nNicht alle Teile des Kontexts sind gleich wichtig:\n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\n\nNach Thomas Mann, Buddenbrooks\n\nWelche Wörter sind besonders wichtig, um\n\ndie Bedeutung des Satzes zu erfassen?\ndas nächste Wort vorherzusagen?"
+    "text": "Vorhersage\nNicht alle Teile des Kontexts sind gleich wichtig:\n \n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\n\nNach Thomas Mann, Buddenbrooks\n\n \nWelche Wörter sind besonders wichtig, um\n\ndie Bedeutung des Satzes zu erfassen?\ndas nächste Wort vorherzusagen?"
+  },
+  {
+    "objectID": "slides/input/index.html#kontext-verstehen",
+    "href": "slides/input/index.html#kontext-verstehen",
+    "title": "KI: erste Schritte & rechtliche Aspekte",
+    "section": "Kontext verstehen",
+    "text": "Kontext verstehen\n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\nSyntaktische Struktur (Grammatik und Struktur des Satzes):\n\nDas Wort “grosszügigen” ist ein Adjektiv, das wahrscheinlich ein Nomen - im Plural beschreibt (Dativ oder Akkusativ wegen der Endung “-en”).\nDer Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.\n\nSemantischer Kontext (Bedeutung):\nDie Beschreibung hebt Wohlstand hervor. Das nächste Wort beschreibt vermutlich etwas Luxuriöses oder Weitläufiges.\nLexikalische Kohärenz (Wörter und deren Bedeutungen im Kontext):\nNach “grosszügigen” folgen häufig Nomen, die Räume, Flächen oder architektonische Elemente beschreiben, z. B. “Räume”, “Gärten”, “Fenster”."
+  },
+  {
+    "objectID": "notebooks/spacy.html",
+    "href": "notebooks/spacy.html",
+    "title": "Fokus Administration HKB",
+    "section": "",
+    "text": "import spacy\n\n\n\n# Load the German SpaCy model\nnlp = spacy.load(\"de_core_news_md\")\n\n\n\n# Analyze the sentence\ntext = \"\"\"Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. \nDas Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine \nprächtige Fassade und die grosszügigen\"\"\"\n\n\n\ndoc = nlp(text)\n\n\n\n# Dependency parsing and POS tagging\nfor token in doc:\n    print(f\"{token.text:15} {token.pos_:10} {token.dep_:10} {token.head.text}\")\n\nDie             DET        nk         Familie\nFamilie         NOUN       sb         lebte\n,               PUNCT      punct      Familie\ndie             PRON       sb         war\nsehr            ADV        mo         wohlhabend\nwohlhabend      ADV        pd         war\nwar             AUX        rc         Familie\n,               PUNCT      punct      lebte\nlebte           VERB       ROOT       lebte\nin              ADP        mo         lebte\neinem           DET        nk         Haus\ngrossen         ADJ        nk         Haus\nHaus            NOUN       nk         in\n.               PUNCT      punct      lebte\n\n               SPACE      dep        .\nDas             DET        nk         Haus\nHaus            NOUN       sb         stand\nstand           VERB       ROOT       stand\ninmitten        ADP        mo         stand\neines           DET        nk         Gartens\nweitläufigen    ADJ        nk         Gartens\nGartens         NOUN       nk         inmitten\n.               PUNCT      punct      stand\nEs              PRON       sb         war\nwar             AUX        ROOT       war\nbekannt         ADV        pd         war\nfür             ADP        mo         bekannt\nseine           DET        nk         Fassade\n\n               SPACE      dep        seine\nprächtige       ADJ        nk         Fassade\nFassade         NOUN       nk         für\nund             CCONJ      cd         Fassade\ndie             DET        nk         grosszügigen\ngrosszügigen    ADJ        cj         und\n\n\n\n\n# Suggest similar words or predict based on context\nsimilar_words = [word.text for word in doc if word.pos_ == \"NOUN\"]\nprint(\"Potential continuations:\", similar_words)\n\nPotential continuations: ['Familie', 'Haus', 'Haus', 'Gartens', 'Fassade']\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "slides/input/index.html#adoptions--vs.-ankunfts-technologien",
+    "href": "slides/input/index.html#adoptions--vs.-ankunfts-technologien",
+    "title": "KI: erste Schritte & rechtliche Aspekte",
+    "section": "Adoptions- vs. Ankunfts-Technologien",
+    "text": "Adoptions- vs. Ankunfts-Technologien\n(Reich and Dukes 2024)\n\n\nTraditionelle Einführung\n\nSorgfältige Bewertung\nPilotversuche\nMitarbeiterschulung\nKlare Zeitpläne\nEtablierte Richtlinien\n\n\n\n\nBeispiele: Adoptions-Technologien\n\n\nLearning Management Systems, Smart boards\n\n\n\n\nAnkunftstechnologien\n\nSpontane Nutzung\nUmgehung von Prozessen\nKeine Vorbereitung\nBenutzergeführte Einführung\nReaktive Richtlinien\n\n\n\n\nBeispiele: Ankunfts-Technologien\n\n\nSmartphone, Wikipedia, YouTube, TikTok"
+  },
+  {
+    "objectID": "slides/input/index.html#datensicherheit",
+    "href": "slides/input/index.html#datensicherheit",
+    "title": "KI: erste Schritte & rechtliche Aspekte",
+    "section": "Datensicherheit",
+    "text": "Datensicherheit\nDies bedeutet:\n\nDaten so zu speichern, dass sie nicht verloren gehen\nDaten nicht manipuliert werden können\nTechnische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten"
   }
 ]
