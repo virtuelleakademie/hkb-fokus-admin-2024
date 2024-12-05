@@ -39,7 +39,7 @@ Ein maschinelles Lernmodell, das darauf trainiert wird, das nächste Wort nach e
 
 
 
-## KI verrichtet geistige Arbeit
+## KI verrichtet geistige Arbeit {.smaller}
 
 - **Kognitive Arbeit und KI**: KI hat das Potential zu verändern, wie *geistige* Arbeit verrichtet wird.
 
@@ -59,7 +59,6 @@ Ein maschinelles Lernmodell, das darauf trainiert wird, das nächste Wort nach e
 
 ## Körperliche Arbeit
 
-Im Wandel der Zeit
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -163,7 +162,7 @@ Smartphone {{< bi phone >}}, Wikipedia {{< bi wikipedia >}} , YouTube {{< bi you
 
 
 
-## Drei Möglichkeiten der Ankunft
+## Drei Möglichkeiten der Ankunft {.smaller}
 
 
 1. **Von Studierenden angeführt**
@@ -216,11 +215,28 @@ Das $\purple{\text{nächste Wort}}$ wird vorhergesagt, in Abhängigkeit von $\bl
 :::
 
 
+## Vorhersage
+
+Nicht alle Teile des Kontexts sind gleich wichtig:
+
+:::{.callout-note appearance="minimal"}
+"Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___"
+:::
+
+:::{.attribution}
+Nach Thomas Mann, *Buddenbrooks*
+:::
+
+Welche Wörter sind besonders wichtig, um 
+
+- die Bedeutung des Satzes zu erfassen?
+- das nächste Wort vorherzusagen?
+
 ## Was sind LLMs?
 
 :::: {.columns}
 ::: {.column width="50%"}
-Ein LLM kann man sich wie einen ausgefeiltenAutocomplete-Mechanismus vorstellen.
+Ein LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.
 :::
 ::: {.column width="50%"}
 ![](../../assets/images/predictive-text.png)
