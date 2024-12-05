@@ -48,7 +48,7 @@ website:
           - text: "Input: KI erste Schritte"
             file: slides/input/index.qmd
           - text: "Input: Prompting"
-            file: slides/prompting/index.qmd
+            file: assets/pdfs/prompting.pdf
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/pdfs/Begleitdokument.pdf
           # - text: "Basic prompt engineering"
