@@ -40,7 +40,7 @@ format:
           markers: true
         callout-appearance: default
         # callout-icon: true
-        smaller: true
+        # smaller: true
 revealjs-plugins:
   - attribution
 filters:
