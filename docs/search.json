@@ -307,7 +307,7 @@
     "href": "slides/input/index.html#körperliche-arbeit",
     "title": "KI: erste Schritte & rechtliche Aspekte",
     "section": "Körperliche Arbeit",
-    "text": "Körperliche Arbeit\nIm Wandel der Zeit\n\n\n19. Jahrhundert\n\n\n20. Jahrhundert\n\n\n\nBildquelle: Erstellt mit DALL-E 3"
+    "text": "Körperliche Arbeit\n\n\n19. Jahrhundert\n\n\n20. Jahrhundert\n\n\n\nBildquelle: Erstellt mit DALL-E 3"
   },
   {
     "objectID": "slides/input/index.html#wie-sieht-das-für-die-kognitive-arbeit-aus",
@@ -349,7 +349,7 @@
     "href": "slides/input/index.html#was-sind-llms-1",
     "title": "KI: erste Schritte & rechtliche Aspekte",
     "section": "Was sind LLMs?",
-    "text": "Was sind LLMs?\n\n\nEin LLM kann man sich wie einen ausgefeiltenAutocomplete-Mechanismus vorstellen.\n\n\n\n\nBildquelle: www.apple.com"
+    "text": "Was sind LLMs?\n\n\nEin LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.\n\n\n\n\nBildquelle: www.apple.com"
   },
   {
     "objectID": "slides/input/index.html#wie-generieren-llms-text",
@@ -700,5 +700,26 @@
     "title": "Prompting: Eine Einführung",
     "section": "References",
     "text": "References"
+  },
+  {
+    "objectID": "slides/input/index.html#was-sind-llms-2",
+    "href": "slides/input/index.html#was-sind-llms-2",
+    "title": "KI: erste Schritte & rechtliche Aspekte",
+    "section": "Was sind LLMs?",
+    "text": "Was sind LLMs?\n\n\nEin LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.\n\n\n\n\nBildquelle: www.apple.com"
+  },
+  {
+    "objectID": "slides/input/index.html#kontext",
+    "href": "slides/input/index.html#kontext",
+    "title": "KI: erste Schritte & rechtliche Aspekte",
+    "section": "Kontext",
+    "text": "Kontext\nNicht alle Teile des Kontexts sind gleich wichtig:\n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\n\nNach Thomas Mann, Buddenbrooks\n\nWelche Wörter sind besonders wichtig, um\n\ndie Bedeutung des Satzes zu erfassen?\ndas nächste Wort vorherzusagen?"
+  },
+  {
+    "objectID": "slides/input/index.html#vorhersage",
+    "href": "slides/input/index.html#vorhersage",
+    "title": "KI: erste Schritte & rechtliche Aspekte",
+    "section": "Vorhersage",
+    "text": "Vorhersage\nNicht alle Teile des Kontexts sind gleich wichtig:\n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\n\nNach Thomas Mann, Buddenbrooks\n\nWelche Wörter sind besonders wichtig, um\n\ndie Bedeutung des Satzes zu erfassen?\ndas nächste Wort vorherzusagen?"
   }
 ]
