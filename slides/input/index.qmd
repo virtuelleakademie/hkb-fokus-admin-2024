@@ -1,22 +1,18 @@
 ---
-title: "Input: KI erste Schritte, Datenschutz"
+title: "KI: erste Schritte & rechtliche Aspekte"
 ---
 
 ## Künstliche Intelligenz
 
-- **Künstliche Intelligenz (KI)** bezieht sich auf Systeme, die Aufgaben ausführen wie:
-    - Verarbeitung natürlicher Sprache
-    - Visuelle Wahrnehmung
-    - Entscheidungsfindung
-    - Problemlösung
+
+- **Künstliche Intelligenz (KI)**: Entwicklung von Maschinen, die Aufgaben ausführen können, welche normalerweise menschliche Intelligenz erfordern.
 
 - KI-Systeme können **trainiert** werden, um aus Daten zu lernen und Muster zu erkennen.
 
-- KI hat das Potenzial, in vielen Bereichen eingesetzt zu werden, wie:
+- Mögliche Einsatzbereiche:
   
     - Personalisierte Empfehlungen
     - Selbstfahrende Autos
-    - Unterstützung bei Entscheidungen
     - Vorhersage von Proteinfaltungen
     - Erstellung von Musik/Bildern/Texten
 
