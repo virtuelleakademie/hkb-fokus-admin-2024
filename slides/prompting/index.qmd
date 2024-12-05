@@ -118,9 +118,10 @@ Erkläre, wie man eine Marmorskulptur mit sichtbaren Rissen restauriert. Berück
 Gib Details zu den Werkzeugen, Materialien und Techniken an, die für jeden Schritt notwendig sind.
 :::
 
-## 4. Leite den Denkprozess
+## 4. Leite den Denkprozess {.smaller}
 
 Bitte ChatGPT/Copilot, "Schritt für Schritt" zu denken oder seine Überlegungen zu erklären. Dies führt oft zu genaueren und detaillierteren Antworten.
+
 
 ::: {.callout-tip title="❌"}
 Restauriere ein beschädigtes Ölgemälde mit mehreren Rissen und Farbverlusten.
@@ -138,7 +139,7 @@ Lass uns die Restaurierung eines beschädigten Ölgemäldes mit Rissen und Farbv
   Beginne mit Schritt 1.
 :::
 
-## 5. Nutze ChatGPT/Copilots "Wissen"
+## 5. Nutze ChatGPT/Copilots "Wissen" {.smaller}
 
 - LLMs verfügen über breites Wissen
 - Frage nach Erklärungen oder Hintergrundinformationen
@@ -164,7 +165,7 @@ Erkläre die Rolle der verschiedenen Instrumentengruppen (Streicher, Bläser, Sc
 Immer den Output eines LLM anhand externer Quellen überprüfen. **Sprachmodelle sind keine Nachschlagewerke**.
 :::
 
-## 6. Verwende Rollenspieltechniken
+## 6. Verwende Rollenspieltechniken {.smaller}
 
 
 - Bitte ChatGPT/Copilot, eine bestimmte Rolle oder Perspektive einzunehmen
