@@ -16,7 +16,7 @@ title: "KI: erste Schritte & rechtliche Aspekte"
     - Vorhersage von Proteinfaltungen
     - Erstellung von Musik/Bildern/Texten
 
-## Large Language Models (LMMs)
+## Large Language Models (LMMs) {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -236,7 +236,7 @@ Welche Wörter sind besonders wichtig, um
 - das nächste Wort vorherzusagen?
 
 
-## Kontext verstehen
+## Kontext verstehen {.smaller}
 
 :::{.callout-note appearance="minimal"}
 "Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___"
@@ -279,7 +279,7 @@ Bildquelle: [www.apple.com](https://www.apple.com)
 ![](../../assets/images/wort-fuer-wort.png)
 
 
-## Wie können LLMs Text vorhersagen?
+## Wie können LLMs Text vorhersagen? {.smaller}
 
 Sie werden trainiert, das nächste Wort in einer gegebenen Wortsequenz zu erraten.
 
@@ -303,7 +303,7 @@ Ein LLM wird in drei Schritten aufgebaut:
 ![](../../assets/images/llm-training.png)
 
 
-## Gefahren und Herausforderungen
+## Gefahren und Herausforderungen {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -433,7 +433,7 @@ Der/die Autor\*in hat diesen Text teilweise mit `[[Modell]]` erstellt. Nach der 
 
 Zitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden.
 
-## Datenschutz
+## Datenschutz {.smaller}
 
 Datenschutz allgemein bedeutet:
 
