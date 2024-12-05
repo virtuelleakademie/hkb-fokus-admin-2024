@@ -14,7 +14,7 @@ Workshop-Program auf einen Blick:
 | 14:35 – 14:55 | Austausch in Gruppen, visuell auf Flipchart | Dana |
 | 14:55 – 15:05 | Gruppen stellen Ergebnisse vor | {{< bi people-fill >}}  |
 | 14:05 – 15:20 | Pause | |
-| 15:20 – 15:35 | [Input Prompting](../assets/pdfs/prompting.pdf) | Andrew |
+| 15:20 – 15:35 | [Input Prompting](prompting/index.qmd) | Andrew |
 | 15:35 – 16:35 | Einführung zu Tools: Chat GPT, Copilot <br> Aufgaben aus Austausch mit Hilfe von Chat GPT / Copilot lösen im Think-Pair–Share | Raymond|
 | 16:35 – 16:50 | Präsentation der Ergebnisse | |
 | 16:50 – 17:00 | Austausch, Abschluss | |
