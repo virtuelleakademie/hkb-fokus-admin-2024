@@ -120,7 +120,7 @@ Bildquelle: Erstellt mit DALL-E 3 ("ChatGPT arriving at a university in the styl
 :::
 
 
-## Adoptions- vs. Ankunftstechnologien
+## Adoptions- vs. Ankunfts-Technologien
 
 [@reichNewTheoryArrival2024]
 
@@ -135,7 +135,7 @@ Bildquelle: Erstellt mit DALL-E 3 ("ChatGPT arriving at a university in the styl
 - Etablierte Richtlinien
 
 :::{.callout-note appearance="minimal"}
-## Beispiele
+## Beispiele: Adoptions-Technologien
 Learning Management Systems, Smart boards
 :::
 
@@ -149,11 +149,10 @@ Learning Management Systems, Smart boards
 - Keine Vorbereitung
 - Benutzergeführte Einführung
 - Reaktive Richtlinien
-- Informelle Schulung
 
 :::{.callout-note appearance="minimal"}
-## Beispiele 
-Smartphone {{< bi phone >}}, Wikipedia {{< bi wikipedia >}} , YouTube {{< bi youtube >}}, TikTok {{< bi tiktok >}}
+## Beispiele: Ankunfts-Technologien
+Smartphone, Wikipedia, YouTube, TikTok 
 :::
 :::
 
@@ -161,7 +160,7 @@ Smartphone {{< bi phone >}}, Wikipedia {{< bi wikipedia >}} , YouTube {{< bi you
 
 
 
-
+<!-- 
 ## Drei Möglichkeiten der Ankunft {.smaller}
 
 
@@ -179,14 +178,14 @@ Smartphone {{< bi phone >}}, Wikipedia {{< bi wikipedia >}} , YouTube {{< bi you
 3. **Systemgeführt**
    - KI-Funktionen in bestehender Software
    - Integration in gängige Tools
-   - Plattform-Updates
+   - Plattform-Updates -->
 
 
 
 ## Was sind LLMs? 
 
 ::: {.r-fit-text}
-Es ist wichtig, die angekommene Technologie zu **entmystifizieren**, um sie richtig einordnen zu können:
+Um die angekommene Technologie einordnen zu können, ist eine **Entmystifizierung** notwendig:
 
 - LLMs sind statistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.
 - Diese Vorhersage geschieht **Wort für Wort**.
@@ -219,6 +218,8 @@ Das $\purple{\text{nächste Wort}}$ wird vorhergesagt, in Abhängigkeit von $\bl
 
 Nicht alle Teile des Kontexts sind gleich wichtig:
 
+<br> <br>
+
 :::{.callout-note appearance="minimal"}
 "Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___"
 :::
@@ -227,10 +228,33 @@ Nicht alle Teile des Kontexts sind gleich wichtig:
 Nach Thomas Mann, *Buddenbrooks*
 :::
 
+<br> <br>
+
 Welche Wörter sind besonders wichtig, um 
 
 - die Bedeutung des Satzes zu erfassen?
 - das nächste Wort vorherzusagen?
+
+
+## Kontext verstehen
+
+:::{.callout-note appearance="minimal"}
+"Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___"
+:::
+
+**Syntaktische Struktur (Grammatik und Struktur des Satzes):**
+
+- Das Wort "grosszügigen" ist ein Adjektiv, das wahrscheinlich ein Nomen - im Plural beschreibt (Dativ oder Akkusativ wegen der Endung "-en").
+- Der Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.
+
+**Semantischer Kontext (Bedeutung):**
+
+Die Beschreibung hebt Wohlstand hervor. Das nächste Wort beschreibt vermutlich etwas Luxuriöses oder Weitläufiges.
+
+**Lexikalische Kohärenz (Wörter und deren Bedeutungen im Kontext):**
+
+Nach "grosszügigen" folgen häufig Nomen, die Räume, Flächen oder architektonische Elemente beschreiben, z. B. "Räume", "Gärten", "Fenster".
+
 
 ## Was sind LLMs?
 
@@ -421,14 +445,16 @@ Datenschutz allgemein bedeutet:
 - Einhaltung von Datenschutzgesetzen und -vorschriften
 
 :::{.callout-caution appearance="minimal"}
-Lehrpersonen müssen Datenschutz immer beim Einsatz von (digitalen) Tools beachten.
+Lehrpersonen müssen Datenschutz beim Einsatz von (digitalen) Tools immer beachten.
 :::
 
+## Datensicherheit
 
-Datensicherheit bedeutet:
+Dies bedeutet:
 
-- Daten so zu speichern, dass sie nicht verloren gehen, nicht manipuliert werden können
-- technische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten
+- Daten so zu speichern, dass sie nicht verloren gehen
+- Daten nicht manipuliert werden können
+- Technische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten
 
 ## Schutzmassnahmen
 
