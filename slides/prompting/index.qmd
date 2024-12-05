@@ -1,6 +1,11 @@
 ---
-title: "Prompt Engineering: Basics"
+title: "Prompting: Eine Einführung"
 ---
+
+## Was ist ein Prompt?
+
+<br> <br>
+![](../../assets/images/unlock-llm.png)
 
 
 ## Understand LLMs through Hands-On Experience
