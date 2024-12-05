@@ -194,7 +194,7 @@
     "href": "workshop/prompting/index.html",
     "title": "Input: Prompting",
     "section": "",
-    "text": "In der folgenden Präsentation diskutieren wir folgende Prompting-Regeln:\nDownload PDF File",
+    "text": "In der folgenden Präsentation diskutieren wir folgende Prompting-Regeln:\nView slides in full screen",
     "crumbs": [
       "Workshop",
       "Input: Prompting"
@@ -608,7 +608,7 @@
     "href": "slides/prompting/index.html#was-ist-ein-prompt",
     "title": "Prompting: Eine Einführung",
     "section": "Was ist ein Prompt?",
-    "text": "Was ist ein Prompt?"
+    "text": "Was ist ein Prompt?\n  \n\nEin Prompt ist ein Text (Anweisung), das einem generativen KI-Modell gegeben wird, um bestimmte Informationen zu generieren oder zu verstehen.\nPrompts dienen als Startpunkt beispielsweise für die Generierung von Ideen, Texten, Übersetzungen und Antworten auf Fragen."
   },
   {
     "objectID": "slides/prompting/index.html#understand-llms-through-hands-on-experience",
@@ -749,5 +749,110 @@
     "title": "KI: erste Schritte & rechtliche Aspekte",
     "section": "Datensicherheit",
     "text": "Datensicherheit\nDies bedeutet:\n\nDaten so zu speichern, dass sie nicht verloren gehen\nDaten nicht manipuliert werden können\nTechnische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten"
+  },
+  {
+    "objectID": "slides/prompting/index.html#wie-wird-text-output-erzeugt",
+    "href": "slides/prompting/index.html#wie-wird-text-output-erzeugt",
+    "title": "Prompting: Eine Einführung",
+    "section": "Wie wird Text (Output) erzeugt?",
+    "text": "Wie wird Text (Output) erzeugt?"
+  },
+  {
+    "objectID": "slides/prompting/index.html#wie-kann-ich-den-output-beeinflussen",
+    "href": "slides/prompting/index.html#wie-kann-ich-den-output-beeinflussen",
+    "title": "Prompting: Eine Einführung",
+    "section": "Wie kann ich den Output beeinflussen?\u000b",
+    "text": "Wie kann ich den Output beeinflussen?"
+  },
+  {
+    "objectID": "slides/prompting/index.html#prompting-grundlagen",
+    "href": "slides/prompting/index.html#prompting-grundlagen",
+    "title": "Prompting: Eine Einführung",
+    "section": "Prompting: Grundlagen",
+    "text": "Prompting: Grundlagen\n\n\nÜberblick:\n\nSei klar und präzise\nFange einfach an und verbessere\nVerwende Beispiele und Kontext\nLeite den Denkprozess\nNutze ChatGPT/Copilots “Wissen”\nVerwende Rollenspieltechniken"
+  },
+  {
+    "objectID": "slides/prompting/index.html#prompting-grundlagen-1",
+    "href": "slides/prompting/index.html#prompting-grundlagen-1",
+    "title": "Prompting: Eine Einführung",
+    "section": "Prompting: Grundlagen",
+    "text": "Prompting: Grundlagen\n1. Sei klar und präzise\n\nFormuliere deine Aufgabe oder Frage präzise\nGib relevanten Kontext und Details an\nUnterteile komplexe Aufgaben in kleinere Schritte\n\n\n\n\n\n❌\n\n\nBeschreibe, wie KI in der Musikproduktion eingesetzt wird.\n\n\n\n\n\n\n\n\n✅\n\n\nBeschreibe in etwa 200 Wörter, wie Künstliche Intelligenz zur Analyse und zum Arrangement von Jazz-Kompositionen verwendet werden kann. Gib konkrete Beispiele für Algorithmen oder Werkzeuge an, die in der Musikproduktion genutzt werden, um Muster zu erkennen und Vorschläge für Harmonievariationen zu generieren."
+  },
+  {
+    "objectID": "slides/prompting/index.html#sei-klar-und-präzise",
+    "href": "slides/prompting/index.html#sei-klar-und-präzise",
+    "title": "Prompting: Eine Einführung",
+    "section": "1. Sei klar und präzise",
+    "text": "1. Sei klar und präzise\n\nFormuliere deine Aufgabe oder Frage präzise\nGib relevanten Kontext und Details an\nUnterteile komplexe Aufgaben in kleinere Schritte\n\n\n\n\n\n❌\n\n\nBeschreibe, wie KI in der Musikproduktion eingesetzt wird.\n\n\n\n\n\n\n\n\n✅\n\n\nBeschreibe in etwa 200 Wörter, wie Künstliche Intelligenz zur Analyse und zum Arrangement von Jazz-Kompositionen verwendet werden kann. Gib konkrete Beispiele für Algorithmen oder Werkzeuge an, die in der Musikproduktion genutzt werden, um Muster zu erkennen und Vorschläge für Harmonievariationen zu generieren."
+  },
+  {
+    "objectID": "slides/prompting/index.html#fange-einfach-an-und-verbessere",
+    "href": "slides/prompting/index.html#fange-einfach-an-und-verbessere",
+    "title": "Prompting: Eine Einführung",
+    "section": "2. Fange einfach an und verbessere",
+    "text": "2. Fange einfach an und verbessere\nBeispiel 1:\n\n\n\n\n❌\n\n\nEntwickle ein vollständiges Regiekonzept für eine moderne Adaption von Shakespeares Hamlet, einschliesslich Bühnenbild, Kostümgestaltung, Lichtdesign und einer Analyse der Charaktere.\n\n\n\n\n\n\n\n\n✅\n\n\nErstelle drei zentrale Ideen, wie eine moderne Version von Hamlet durch Bühnenbild und Kostüme visuell vermittelt werden könnte.\n\n\n\n\n\nWichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:\n\n“Kannst du ein Beispiel für ein spezifisches Kostümdetail geben, das moderne Elemente einbezieht?”\n“Wie könnte das Bühnenbild die Stimmung oder den inneren Konflikt der Charaktere widerspiegeln?”"
+  },
+  {
+    "objectID": "slides/prompting/index.html#fange-einfach-an-und-verbessere-1",
+    "href": "slides/prompting/index.html#fange-einfach-an-und-verbessere-1",
+    "title": "Prompting: Eine Einführung",
+    "section": "2. Fange einfach an und verbessere",
+    "text": "2. Fange einfach an und verbessere\nBeispiel 2:\n\n\n\n\n❌\n\n\nErstelle einen umfassenden, mehrstufigen Behandlungsplan für einen Patienten mit chronischer Hypertonie, einschließlich Medikamentenregime, Lebensstiländerungen, Nachsorgezeitplan und möglichen Komplikationen.\n\n\n\n\n\n\n\n\n✅\n\n\nSchlage drei wichtige Lebensstiländerungen für einen Patienten vor, bei dem kürzlich eine leichte Hypertonie diagnostiziert wurde.\n\n\n\n\n\nWichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:\n\n“Kannst du mehr Details zu einer dieser Änderungen geben?”\n“Welche Auswirkungen hätte jede dieser Änderungen auf den Blutdruck?”\n“Gibt es mögliche Herausforderungen bei der Umsetzung dieser Änderungen?”"
+  },
+  {
+    "objectID": "slides/prompting/index.html#verwende-beispiele-und-kontext",
+    "href": "slides/prompting/index.html#verwende-beispiele-und-kontext",
+    "title": "Prompting: Eine Einführung",
+    "section": "3. Verwende Beispiele und Kontext",
+    "text": "3. Verwende Beispiele und Kontext\nBeschreibe, welche Art von Output du erwartest Gib ein Muster vor, wenn du ein bestimmtes Format oder einen Stil wünschst\n\n\n\n\n❌\n\n\nErkläre, wie man eine Skulptur restauriert.\n\n\n\n\n\n\n\n\n✅\n\n\nErkläre, wie man eine Marmorskulptur mit sichtbaren Rissen restauriert. Berücksichtige dabei Schritte wie:\n\nSichtung und Dokumentation des Schadens\nAuswahl und Testen geeigneter Materialien zur Rissfüllung\nAnwendung und Glättung des Füllmaterials\n\nGib Details zu den Werkzeugen, Materialien und Techniken an, die für jeden Schritt notwendig sind."
+  },
+  {
+    "objectID": "slides/prompting/index.html#leite-den-denkprozess",
+    "href": "slides/prompting/index.html#leite-den-denkprozess",
+    "title": "Prompting: Eine Einführung",
+    "section": "4. Leite den Denkprozess",
+    "text": "4. Leite den Denkprozess\nBitte ChatGPT/Copilot, “Schritt für Schritt” zu denken oder seine Überlegungen zu erklären. Dies führt oft zu genaueren und detaillierteren Antworten.\n\n\n\n\n❌\n\n\nRestauriere ein beschädigtes Ölgemälde mit mehreren Rissen und Farbverlusten.\n\n\n\n\n\n\n\n\n✅\n\n\nLass uns die Restaurierung eines beschädigten Ölgemäldes mit Rissen und Farbverlust Schritt für Schritt angehen:\n\nZuerst beschreibe die Art und das Ausmass der Schäden.\nWelche Faktoren könnten für die Schäden verantwortlich sein (z.B. Alterung, Lagerungsbedingungen)?\nWelche Materialien und Techniken könnten zur Stabilisierung der Risse verwendet werden?\nWelche Farbpigmente und Fixiermittel könnten zur Ausbesserung des Farbverlustes geeignet sein?\nWelche Tests könnten vorher an kleinen Stellen des Gemäldes durchgeführt werden, um die Wirkung der Materialien zu prüfen?\n\nBeginne mit Schritt 1."
+  },
+  {
+    "objectID": "slides/prompting/index.html#nutze-chatgptcopilots-wissen",
+    "href": "slides/prompting/index.html#nutze-chatgptcopilots-wissen",
+    "title": "Prompting: Eine Einführung",
+    "section": "5. Nutze ChatGPT/Copilots “Wissen”",
+    "text": "5. Nutze ChatGPT/Copilots “Wissen”\n\nLLMs verfügen über breites Wissen\nFrage nach Erklärungen oder Hintergrundinformationen\nGib relevanten Kontext an, damit ChatGPT/Copilot gezielter antworten kann\n\n\n\n\n\n❌\n\n\nErkläre, wie ein Orchester funktioniert.\n\n\n\n\n\n\n\n\n✅\n\n\nErkläre, wie ein Sinfonieorchester funktioniert, als würdest du Musikstudierenden im ersten Semester eine Einführung geben.\nVergleiche dabei die Struktur eines Orchesters mit einem gut koordinierten Team, bei dem jede Gruppe eine spezifische Aufgabe übernimmt.\nErkläre die Rolle der verschiedenen Instrumentengruppen (Streicher, Bläser, Schlagwerk) und die des Dirigenten und zeige, wie sie zusammenarbeiten, um ein harmonisches Ganzes zu erzeugen."
+  },
+  {
+    "objectID": "slides/prompting/index.html#section",
+    "href": "slides/prompting/index.html#section",
+    "title": "Prompting: Eine Einführung",
+    "section": "5",
+    "text": "5"
+  },
+  {
+    "objectID": "slides/prompting/index.html#nutze-chatgptcopilots-wissen-1",
+    "href": "slides/prompting/index.html#nutze-chatgptcopilots-wissen-1",
+    "title": "Prompting: Eine Einführung",
+    "section": "5. Nutze ChatGPT/Copilots “Wissen”",
+    "text": "5. Nutze ChatGPT/Copilots “Wissen”\n \n\n\n\n\n\n\n\nAchtung\n\n\nImmer den Output eines LLM anhand externer Quellen überprüfen. Sprachmodelle sind keine Nachschlagewerke."
+  },
+  {
+    "objectID": "slides/prompting/index.html#verwende-rollenspieltechniken",
+    "href": "slides/prompting/index.html#verwende-rollenspieltechniken",
+    "title": "Prompting: Eine Einführung",
+    "section": "6. Verwende Rollenspieltechniken",
+    "text": "6. Verwende Rollenspieltechniken\n\nBitte ChatGPT/Copilot, eine bestimmte Rolle oder Perspektive einzunehmen\nDies kann zu spezifischeren und relevanteren Antworten führen\n\n\n\n\n\n❌\n\n\nGib Tipps zur Verbesserung der Bühnenpräsenz.\u000b\n\n\n\n\n\n\n\n\n✅\n\n\nDu bist eine erfahrene Theaterregisseurin, die seit über 15 Jahren mit Schauspielstudierenden arbeitet.\nWas sind deine drei wichtigsten Tipps für junge Schauspieler, um ihre Bühnenpräsenz zu stärken?\nBerücksichtige dabei Aspekte wie Körperhaltung, Stimme und Interaktion mit dem Publikum und gib konkrete Übungen oder Techniken an, die die Schauspieler ausprobieren können."
+  },
+  {
+    "objectID": "slides/prompting/index.html#bonustips",
+    "href": "slides/prompting/index.html#bonustips",
+    "title": "Prompting: Eine Einführung",
+    "section": "Bonustips",
+    "text": "Bonustips\n \n\n\n\n\nMentales Modell: Ein LLM wie einen “Junior Assistant” behandeln.\nStruktierten Output verlangen (Tabellen, Listen, etc.)\nInput strukturieren (LLMs können diesen besser “verstehen”)\nEin LLM (z.B. ChatGPT/Copilot) nach Prompting Tips fragen. LLMs sind nicht auf dem neuesten Stand, aber haben sehr wahrscheinlich die bis vor kurzem aktuelle Literatur “gelesen”.\nChatGPT Tip: Anweisen, Python zu benutzen. Pyhton ist eine Programmiersprache, die ChatGPT sehr gut beherrscht. Mit Python kann ChatGPT Daten analysieren, Grafiken erstellen, Word/Excel/Powerpoint Dateien erstellen."
+  },
+  {
+    "objectID": "slides/prompting/index.html#fange-einfach-an-und-verbessere-.smaller",
+    "href": "slides/prompting/index.html#fange-einfach-an-und-verbessere-.smaller",
+    "title": "Prompting: Eine Einführung",
+    "section": "2. Fange einfach an und verbessere {.smaller}}",
+    "text": "2. Fange einfach an und verbessere {.smaller}}\nBeispiel 1:\n\n\n\n\n❌\n\n\nEntwickle ein vollständiges Regiekonzept für eine moderne Adaption von Shakespeares Hamlet, einschliesslich Bühnenbild, Kostümgestaltung, Lichtdesign und einer Analyse der Charaktere.\n\n\n\n\n\n\n\n\n✅\n\n\nErstelle drei zentrale Ideen, wie eine moderne Version von Hamlet durch Bühnenbild und Kostüme visuell vermittelt werden könnte.\n\n\n\n\n\nWichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:\n\n“Kannst du ein Beispiel für ein spezifisches Kostümdetail geben, das moderne Elemente einbezieht?”\n“Wie könnte das Bühnenbild die Stimmung oder den inneren Konflikt der Charaktere widerspiegeln?”"
   }
 ]
